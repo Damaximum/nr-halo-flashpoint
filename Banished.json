@@ -1,0 +1,2622 @@
+{
+  "catalogue": {
+    "categoryEntries": [
+      {
+        "name": "Sangheili",
+        "id": "3403-736e-7b0c-588b",
+        "hidden": false,
+        "publicationId": "8800-f7bd-eeff-a92f"
+      },
+      {
+        "name": "Banished Special Orders",
+        "id": "c51d-82ff-1907-ac1a",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "cfb5-e4bc-ff20-689e"
+          },
+          {
+            "type": "max",
+            "value": 10,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "598a-9e65-7ae5-4434"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae",
+        "id": "0533-f9ac-5b03-11b2",
+        "hidden": false
+      },
+      {
+        "name": "Legends",
+        "id": "a14f-c7a2-7e5e-543e",
+        "hidden": false
+      }
+    ],
+    "library": false,
+    "id": "42cc-695d-cc2b-4671",
+    "name": "Banished",
+    "gameSystemId": "sys-d6f4-c22a-702c-7c63",
+    "gameSystemRevision": 1,
+    "revision": 1,
+    "battleScribeVersion": 2.03,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "forceEntries": [
+      {
+        "name": "Banished Fireteam",
+        "id": "5db2-98d9-0737-ee23",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Banished Special Orders",
+            "hidden": false,
+            "id": "d542-c725-24f9-1bcb",
+            "targetId": "c51d-82ff-1907-ac1a"
+          },
+          {
+            "name": "Jiralhanae",
+            "hidden": false,
+            "id": "10ed-c685-a9ad-738e",
+            "targetId": "0533-f9ac-5b03-11b2"
+          },
+          {
+            "name": "Command Upgrades",
+            "hidden": false,
+            "id": "c0a3-da43-20da-1bae",
+            "targetId": "c928-e094-4703-7632"
+          },
+          {
+            "name": "Legends",
+            "hidden": false,
+            "id": "f47c-3fa6-0934-1fc7",
+            "targetId": "a14f-c7a2-7e5e-543e"
+          },
+          {
+            "name": "Sangheili",
+            "hidden": false,
+            "id": "be80-a262-2494-f060",
+            "targetId": "3403-736e-7b0c-588b"
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sanheili Fists",
+        "hidden": false,
+        "id": "949b-8de4-fbd6-d4a6",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "3a95-3546-abc7-85a9",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Smash (n)",
+                "id": "cc1f-bcc8-59e7-38cf",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e0eb-47f2-7bcc-d042"
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sanheili Fists",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "4544-ec87-e696-85d6",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77",
+                "$text": "CC"
+              },
+              {
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b",
+                "$text": "-"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734",
+                "$text": "Smash (1)"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "0af9-67c6-7a12-a84f"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Fists",
+        "hidden": false,
+        "id": "3085-ab68-a205-1e02",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "9699-098e-84a1-d713",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Knockback",
+                "id": "7c58-03c0-941a-7685",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "c809-077b-7797-3195"
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Jiralhanae Fists",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "9779-5886-e50c-0369",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77",
+                "$text": "CC"
+              },
+              {
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b",
+                "$text": "-"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734",
+                "$text": "Knockback"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a997-48f0-7e0e-2e82"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Power Guantlet",
+        "hidden": false,
+        "id": "c434-c37e-225f-f429",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "25f4-bb59-b33f-e1d9",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Lethal (n)",
+                "id": "47a3-17fd-511c-2ad4",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "751d-9206-f5e0-03b3"
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Power Guantlet",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "8948-9c6f-cb70-e6fe",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77",
+                "$text": "CC"
+              },
+              {
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b",
+                "$text": "2"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734",
+                "$text": "Lethal (2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Wrist Blades",
+        "hidden": false,
+        "id": "914d-447a-1a53-45e3",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "29b5-be71-44a8-0070",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Knockback",
+                "id": "12b4-c2e3-2c1e-ed6d",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "c809-077b-7797-3195"
+              },
+              {
+                "name": "Smash (n)",
+                "id": "fcbf-a684-3d80-539a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e0eb-47f2-7bcc-d042"
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Wrist Blades",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "3287-47c6-69d8-7d4b",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77",
+                "$text": "CC"
+              },
+              {
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b",
+                "$text": "1"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734",
+                "$text": "Knockback, Smash (1)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Energy Dagger",
+        "hidden": false,
+        "id": "d65d-a245-805a-4655",
+        "profiles": [
+          {
+            "name": "Energy Dagger",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "2ee0-c10d-e3db-1a27",
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77",
+                "$text": ""
+              },
+              {
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b",
+                "$text": ""
+              },
+              {
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734",
+                "$text": ""
+              }
+            ]
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "e6d7-2b8b-58ff-a73f",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Lethal (n)",
+                "id": "8a6e-142e-d30b-2549",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "751d-9206-f5e0-03b3"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "c7bb-3145-1fa4-ef57"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Chain Breaker",
+        "hidden": false,
+        "id": "79b4-6cd8-4787-f4cc",
+        "selectionEntryGroups": [
+          {
+            "name": "Chain Breaker (Ranged)",
+            "id": "2b38-e0d4-a2cf-c9f5",
+            "hidden": false,
+            "infoGroups": [
+              {
+                "name": "Keywords",
+                "id": "29f2-a1a4-faca-63b3",
+                "hidden": false,
+                "infoLinks": [
+                  {
+                    "name": "Lethal (n)",
+                    "id": "10eb-db73-74ab-a619",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "751d-9206-f5e0-03b3"
+                  },
+                  {
+                    "name": "Lunge",
+                    "id": "fc96-cfae-f1f1-78e0",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "fad2-8aaa-4a58-a5e8"
+                  },
+                  {
+                    "name": "Concussive",
+                    "id": "e7fd-1711-7961-b42e",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "99d3-7a0f-1302-39cc"
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Chain Breaker (Ranged)",
+                "typeId": "49bf-a2d1-7a64-717e",
+                "typeName": "Weapons",
+                "hidden": false,
+                "id": "b062-4169-1787-7aa1",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "c685-2ffd-a66f-ab77",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "a2b8-87bd-3c79-107b",
+                    "$text": "-"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "38c3-e196-bb17-1734",
+                    "$text": "Concussive, Lethal (1), Lunge"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Chain Breaker (Melee)",
+            "id": "ea4f-5f6a-b4d7-416c",
+            "hidden": false,
+            "infoGroups": [
+              {
+                "name": "Keywords",
+                "id": "c8eb-6777-3167-1e6e",
+                "hidden": false,
+                "infoLinks": [
+                  {
+                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "id": "73f8-1f22-f33a-5713",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "9085-340f-339c-693b"
+                  },
+                  {
+                    "name": "Concussive",
+                    "id": "6324-ea85-5105-4bfe",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "99d3-7a0f-1302-39cc"
+                  },
+                  {
+                    "name": "Smash (n)",
+                    "id": "5c01-bd89-f3c9-eff3",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "e0eb-47f2-7bcc-d042"
+                  },
+                  {
+                    "name": "Lethal (n)",
+                    "id": "0683-6b45-67f6-46e2",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "751d-9206-f5e0-03b3"
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Chain Breaker (Melee)",
+                "typeId": "49bf-a2d1-7a64-717e",
+                "typeName": "Weapons",
+                "hidden": false,
+                "id": "6bb4-cfb8-63ae-bc7c",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "c685-2ffd-a66f-ab77",
+                    "$text": "CC"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "a2b8-87bd-3c79-107b",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "38c3-e196-bb17-1734",
+                    "$text": "Concussive, ESD (1), Lethal (1), Smash (2)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Atriox, Jiralhanae Warmaster",
+        "hidden": false,
+        "id": "72ee-a7fe-86ea-772c",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "afae-f5af-d49a-3ae9",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "e954-7de4-c8f7-7725",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Fearless",
+                "id": "b611-ed59-039d-0324",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "54fc-4e4b-29c4-00c2"
+              },
+              {
+                "name": "Imposing",
+                "id": "1027-704c-5383-3a94",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "59c2-5564-6a99-cc73",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              },
+              {
+                "name": "Unstoppable",
+                "id": "cb0a-1774-ff93-f8f7",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "a3ac-fdb4-9372-d729"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Atriox, Jiralhanae Warmaster",
+            "id": "3328-7583-0ce4-7ee1",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "1640-5cf1-8d8e-32af"
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Chain Breaker",
+            "hidden": false,
+            "id": "7957-89ac-8ceb-6759",
+            "type": "selectionEntry",
+            "targetId": "79b4-6cd8-4787-f4cc"
+          },
+          {
+            "import": true,
+            "name": "Power Guantlet",
+            "hidden": false,
+            "id": "e1c6-8cc0-e29f-9d09",
+            "type": "selectionEntry",
+            "targetId": "c434-c37e-225f-f429"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "096c-af2a-1d54-6528",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "85e1-37be-0b82-63a5",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "f743-cb46-7b37-bd35",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "b1a2-1767-60b8-fc10",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 86
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Berserker (Dynamo Grenade)",
+        "hidden": false,
+        "id": "6463-0d54-ba3b-e85b",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "0a22-2fb5-0bf5-5b2a",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Imposing",
+                "id": "92d1-163c-f7af-bbe1",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Wrist Blades",
+            "hidden": false,
+            "id": "6f8a-9153-b675-b909",
+            "type": "selectionEntry",
+            "targetId": "914d-447a-1a53-45e3"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "2208-5992-bfab-5925",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "77af-f341-f153-32fc",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "055b-4179-35bc-3ab6",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Dynamo Grenade (Default)",
+            "hidden": false,
+            "id": "e09a-2ff2-43a5-f55a",
+            "type": "selectionEntry",
+            "targetId": "07bd-820d-1ce0-d0be"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Berserker (Dynamo)",
+            "id": "963f-2ef6-8224-2832",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "389d-f423-18fa-89bd"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2d93-1469-8413-c743",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 32
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Berserker (Spike Grenade)",
+        "hidden": false,
+        "id": "d564-9987-24ba-df23",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "00d9-75fa-7d97-e3dc",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "a28d-c8e4-f438-3595",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Imposing",
+                "id": "a4b3-7128-8ed5-856e",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Spike Grenade (Default)",
+            "hidden": false,
+            "id": "30bf-7449-cfce-2c13",
+            "type": "selectionEntry",
+            "targetId": "ef36-6d1e-db4b-fbc1"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "ec66-82da-815a-29a5",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "7c53-281e-bf8e-e7b4",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "c25f-35eb-105a-1493",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Wrist Blades",
+            "hidden": false,
+            "id": "96f6-1b5d-1ca4-4e7e",
+            "type": "selectionEntry",
+            "targetId": "914d-447a-1a53-45e3"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Berserker (Spike)",
+            "id": "0a91-caf3-a0af-9152",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "e5d5-4883-dcd7-4129"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "83db-9b39-f9ae-500b",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 34
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sangheili Mercenary (Needler)",
+        "hidden": false,
+        "id": "4b26-45d1-0647-ff12",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "0a35-faee-ac23-d2b0",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Evade",
+                "id": "5fd8-f49a-e146-1ced",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "9c4b-cf16-5095-1900"
+              },
+              {
+                "name": "Energy Shield (n)",
+                "id": "d50f-c49d-baec-5662",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Needler (Default)",
+            "hidden": false,
+            "id": "1e0d-3ad9-5f16-2568",
+            "type": "selectionEntry",
+            "targetId": "99e9-a5f8-6a1e-df3d"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "8088-2dc6-6491-bf6e",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "85fc-133b-50ae-2eb8",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "3ef4-ace8-4862-342e",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Plasma Grenade (Default)",
+            "hidden": false,
+            "id": "9a03-5b8c-c6ba-99f6",
+            "type": "selectionEntry",
+            "targetId": "f907-4e24-6146-3b31"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Sangheili)",
+            "hidden": false,
+            "id": "5be9-4e46-5d74-3a3c",
+            "type": "selectionEntryGroup",
+            "targetId": "f53c-dbf9-b621-0454"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Sangheili Mercenary",
+            "id": "4ba6-1258-c7b8-96d0",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9e8a-196c-4c2a-1251"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "63c8-1119-56fd-94e6",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 42
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sangheili Mercenary (Plasma Rifle)",
+        "hidden": false,
+        "id": "0758-925f-1cab-f899",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "50f3-9f74-7f0a-ae3d",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Evade",
+                "id": "9ddf-1141-626c-e47b",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "9c4b-cf16-5095-1900"
+              },
+              {
+                "name": "Energy Shield (n)",
+                "id": "5a85-9e29-c738-4d3b",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Plasma Grenade (Default)",
+            "hidden": false,
+            "id": "7892-7190-5609-d869",
+            "type": "selectionEntry",
+            "targetId": "f907-4e24-6146-3b31"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "90ad-29a7-fdb8-a272",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "aa30-fd5e-748c-4cce",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "72f7-69c3-1fa7-b78e",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Plasma Rifle (Default)",
+            "hidden": false,
+            "id": "5ad0-d385-a4ac-57e2",
+            "type": "selectionEntry",
+            "targetId": "9382-cb94-3cb9-f764"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Sangheili)",
+            "hidden": false,
+            "id": "a7ba-eb27-ea04-3a0f",
+            "type": "selectionEntryGroup",
+            "targetId": "f53c-dbf9-b621-0454"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Sangheili Mercenary",
+            "id": "0240-db10-20b0-fc11",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9e8a-196c-4c2a-1251"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "7511-82a2-ba99-731c",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 44
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sangheili Mercenary (Pulse Carbine)",
+        "hidden": false,
+        "id": "bb5a-215a-0608-22bb",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "7b4a-9647-167e-c272",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Evade",
+                "id": "31ea-eb39-2678-a27c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "9c4b-cf16-5095-1900"
+              },
+              {
+                "name": "Energy Shield (n)",
+                "id": "6a75-aeb2-ae67-269e",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Pulse Carbine (Default)",
+            "hidden": false,
+            "id": "63b2-965e-82ee-91ef",
+            "type": "selectionEntry",
+            "targetId": "d2c1-6439-e1ca-b46a"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "4456-239a-afcb-32ad",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "cdf9-1da7-bd17-f526",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "d473-4cc5-3e39-e12d",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Plasma Grenade (Default)",
+            "hidden": false,
+            "id": "f8bf-9cc6-99c0-2963",
+            "type": "selectionEntry",
+            "targetId": "f907-4e24-6146-3b31"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Sangheili)",
+            "hidden": false,
+            "id": "18b9-3fde-4c0f-c218",
+            "type": "selectionEntryGroup",
+            "targetId": "f53c-dbf9-b621-0454"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Sangheili Mercenary",
+            "id": "a579-a196-7407-2a9d",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9e8a-196c-4c2a-1251"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "5b3a-22de-d5f5-f1b4",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 40
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Sangheili Mercenary (Energy Sword)",
+        "hidden": false,
+        "id": "a259-12f9-39dd-e899",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "7f04-f7d8-6067-7fb0",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "76c9-17c7-5d4e-4754",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Evade",
+                "id": "4a9e-b925-5f84-3660",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "9c4b-cf16-5095-1900"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Plasma Grenade (Default)",
+            "hidden": false,
+            "id": "48a6-baf2-0ff0-fd83",
+            "type": "selectionEntry",
+            "targetId": "f907-4e24-6146-3b31"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "4209-1be0-803c-a581",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "5175-8a8f-3eff-9f2d",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "538f-869c-5f14-3c0c",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Energy Sword (Default)",
+            "hidden": false,
+            "id": "8783-87d5-8355-04b3",
+            "type": "selectionEntry",
+            "targetId": "e8c2-9166-70f3-09e1"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Sangheili)",
+            "hidden": false,
+            "id": "6bce-3375-1ca1-1159",
+            "type": "selectionEntryGroup",
+            "targetId": "f53c-dbf9-b621-0454"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Sangheili Mercenary",
+            "id": "9519-64fa-0f61-866a",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9e8a-196c-4c2a-1251"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "c675-c40b-180a-6ce4",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 47
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Warrior",
+        "hidden": false,
+        "id": "d877-47de-573b-4e70",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "6ebe-6deb-8366-e752",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Imposing",
+                "id": "161d-38b9-696f-9bcb",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Spike Grenade (Default)",
+            "hidden": false,
+            "id": "1f67-6b40-964d-4748",
+            "type": "selectionEntry",
+            "targetId": "ef36-6d1e-db4b-fbc1"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "ee5a-194d-10ae-77df",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "bd90-845c-4239-aa09",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "5d48-1295-5e22-ee88",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Jiralhanae Fists",
+            "hidden": false,
+            "id": "98b1-091c-c7f3-e55e",
+            "type": "selectionEntry",
+            "targetId": "3085-ab68-a205-1e02"
+          },
+          {
+            "import": true,
+            "name": "VK78 Commando (Default)",
+            "hidden": false,
+            "id": "5009-bb00-8754-7b21",
+            "type": "selectionEntry",
+            "targetId": "edff-ad6e-ea9e-7e23"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Warrior",
+            "id": "a8dc-5242-652d-11f1",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "e82b-599c-bf10-8f64"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "905f-1699-a168-bd86",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 32
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Chosen Warrior",
+        "hidden": false,
+        "id": "c173-e8d4-4ed2-0558",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "943f-b322-4ca6-176c",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Imposing",
+                "id": "7361-d08f-7f5e-7166",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              },
+              {
+                "name": "Energy Shield (n)",
+                "id": "41dc-fe9b-8160-3545",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Guarded",
+                "id": "679d-901d-e168-435c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "d61b-fa4c-fa16-40d7"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "e580-85f4-668c-433e",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Sentinel Beam (Default)",
+            "hidden": false,
+            "id": "b34f-a373-1222-02f1",
+            "type": "selectionEntry",
+            "targetId": "b49c-267e-fdb1-6853"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "f505-6601-a9c8-4da4",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "44bd-6386-2c35-97f5",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "71fd-0490-cc9d-6acc",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Jiralhanae Fists",
+            "hidden": false,
+            "id": "f01b-a6bf-ef1a-6fe7",
+            "type": "selectionEntry",
+            "targetId": "3085-ab68-a205-1e02"
+          },
+          {
+            "import": true,
+            "name": "Spike Grenade (Default)",
+            "hidden": false,
+            "id": "12d2-b228-5700-727d",
+            "type": "selectionEntry",
+            "targetId": "ef36-6d1e-db4b-fbc1"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Chosen Warrior",
+            "id": "1c9f-6e73-9001-915d",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "04f5-7360-3817-5c0f"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "77c3-fe90-446b-0cfe",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 41
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Sniper (Shock Rifle)",
+        "hidden": false,
+        "id": "c469-d4a5-66d9-6e8f",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "da3b-3844-ebe8-4c96",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "ccfd-786c-7fe4-02e5",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Imposing",
+                "id": "c8f9-8bab-b40d-cae9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Shock Rifle (Default)",
+            "hidden": false,
+            "id": "40bd-3118-e2db-8c17",
+            "type": "selectionEntry",
+            "targetId": "9f52-33b6-58e2-86a1"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "97fc-1161-2392-1c49",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "b4dc-191d-9c17-c37f",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "045a-22c0-bf7d-eda2",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Jiralhanae Fists",
+            "hidden": false,
+            "id": "544e-1b24-f604-7b5c",
+            "type": "selectionEntry",
+            "targetId": "3085-ab68-a205-1e02"
+          },
+          {
+            "import": true,
+            "name": "Disruptor (Default)",
+            "hidden": false,
+            "id": "84d2-4dea-ed48-3d9a",
+            "type": "selectionEntry",
+            "targetId": "0b1c-bd5b-a53e-cef2"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Sniper",
+            "id": "8465-03c3-190c-1a8d",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d711-ba55-e5ed-ae3f"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "7894-1186-f813-f573",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 35
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Sniper (Skewer)",
+        "hidden": false,
+        "id": "5c87-b8c6-5105-310d",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "945d-d3ae-8747-bd98",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "2c90-94ee-2c85-ba07",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Imposing",
+                "id": "3b53-37fa-f2c2-b23b",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Skewer",
+            "hidden": false,
+            "id": "5daf-8ca0-b15e-f5c5",
+            "type": "selectionEntry",
+            "targetId": "d95a-cd9e-fbb6-d597"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "681c-ea96-a33e-8309",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "6c75-20c9-c69c-d7ec",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "74a9-e545-80df-4f15",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Mangler (Default)",
+            "hidden": false,
+            "id": "e0cf-1670-fc01-fa10",
+            "type": "selectionEntry",
+            "targetId": "eecb-ec5c-4abd-5b3c"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Sniper",
+            "id": "ca2a-5cda-a493-e113",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d711-ba55-e5ed-ae3f"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2bbb-8c53-b14c-3688",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 42
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Captain (MLRS-2 Hydra)",
+        "hidden": false,
+        "id": "024c-e7bd-8a0e-cbcc",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "99e6-ce4f-8f06-9381",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Imposing",
+                "id": "fc1c-2421-3eb2-ffa5",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              },
+              {
+                "name": "Energy Shield (n)",
+                "id": "fcc7-ce48-39eb-85e0",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "0af5-77b6-3e8b-e7ec",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              },
+              {
+                "name": "Jump Pack",
+                "id": "ce95-1c61-dc29-cfc9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e014-c61c-b814-d96a"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "MLRS-2 Hydra (Default)",
+            "hidden": false,
+            "id": "005a-a7e2-d470-c0b7",
+            "type": "selectionEntry",
+            "targetId": "e7ed-d633-487c-c467"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "024f-d5f3-7822-4912",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "5d92-6366-5909-52f6",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "45ab-3923-89bf-de4d",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Jiralhanae Fists",
+            "hidden": false,
+            "id": "a4ce-0536-6a2e-e5f2",
+            "type": "selectionEntry",
+            "targetId": "3085-ab68-a205-1e02"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Captain",
+            "id": "dcb6-cfea-a678-4cd3",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5fa8-39fe-8afb-0cfc"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "a51e-d942-de17-473d",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 55
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Jiralhanae Captain (Ravager)",
+        "hidden": false,
+        "id": "954b-74d2-54d7-39a1",
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "cc60-5768-ac08-e460",
+            "hidden": false,
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "962b-0b57-a84c-d1c7",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Imposing",
+                "id": "215e-2e00-3185-17e0",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "9a21-e3c9-5187-7463",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              },
+              {
+                "name": "Jump Pack",
+                "id": "dfba-6a2d-398e-ecbe",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e014-c61c-b814-d96a"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Ravager (Default)",
+            "hidden": false,
+            "id": "cba4-5f87-2e4e-888b",
+            "type": "selectionEntry",
+            "targetId": "c837-2754-fff7-e119"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "209f-5b34-3ffc-87b7",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "2382-f6e0-2651-b15a",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "57fc-974e-7487-152b",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Jiralhanae Captain",
+            "id": "cd8e-7cef-916e-f937",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5fa8-39fe-8afb-0cfc"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "1db0-2a5e-bd1f-5be5",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 56
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": " Rampage (Jiralhanae only) ",
+        "hidden": false,
+        "id": "6d68-57d6-108c-5055",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "11aa-5c3d-eb2f-d48a",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 3
+          }
+        ],
+        "profiles": [
+          {
+            "name": " Rampage (Jiralhanae only) ",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "cf17-24fd-98d8-bfd9",
+            "characteristics": [
+              {
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41",
+                "$text": "An injured animal is often the most dangerous. Injured Jiralhanae will enter a berserk rampage when close to death in a last attempt to make one more kill.\n\n\nIf the active Jiralhanae unit has 2 or more wounds already, they can spend a Special Order result to add 1 to their Speed stat for a Sprint action made in activation.\n\n\nThis movement must be used to enter a cube with an enemy model. the Jiralhanae player may reroll 1 die during the resulting Fight test."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": " Defiance (Any Banished, Must include Atriox) ",
+        "hidden": false,
+        "id": "1312-575f-dc08-8050",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "a81a-0227-b7eb-5444",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 5
+          }
+        ],
+        "profiles": [
+          {
+            "name": " Defiance (Any Banished, Must include Atriox) ",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "3d2f-baf4-df7b-e32c",
+            "characteristics": [
+              {
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41",
+                "$text": "If a friendly model begins their activation pinned, you may spend a Special Order result to perform a free Stand Up action first, then continue with the model's normal 2 short /1 long action.\n\nAtriox personally may use special orders available to Jiralhanae and the Banished.\n\n\nAtriox may be taken in place of 2 other Banished when drafting your Banished fireteam, if you are using the drafting rules from the Rulebook."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": " Alliance (Any Banished) ",
+        "hidden": false,
+        "id": "88a7-79db-aed8-96c8",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "5666-5b30-9e6d-17b3",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 2
+          }
+        ],
+        "profiles": [
+          {
+            "name": " Alliance (Any Banished) ",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "cfd0-f5f6-190d-efbc",
+            "characteristics": [
+              {
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41",
+                "$text": "If there is a friendly Banished model in the same cube or an adjacent cube to the active model at the start of its activation, then the active model is permitted to take the same short action twice during its activation.\n\n\nNote this isn't allowing extra actions, it's just removing the usual obligation to use different action when taking tow short actions in the activation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": " Reinforcements Incoming (Sangheili Mercenaries only)",
+        "hidden": false,
+        "id": "7cc9-d656-3d3c-ec7f",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "7941-8e34-e8e8-0abd",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 5
+          }
+        ],
+        "profiles": [
+          {
+            "name": " Reinforcements Incoming (Sangheili Mercenaries only)",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "0ef4-e183-b532-e6f7",
+            "characteristics": [
+              {
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41",
+                "$text": "After an activation by either player, the Special Order command die result may be spent to remove the activation token from a friendly Sangheili Mercenary that is off the board (due to being killed but not yet respawned). This means the controlling player can and must take a turn to activate the model before the end fo the current round."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Close Combat (Sangheili)",
+        "id": "f53c-dbf9-b621-0454",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Energy Dagger",
+            "hidden": false,
+            "id": "07ad-ec4d-d2d7-939c",
+            "type": "selectionEntry",
+            "targetId": "d65d-a245-805a-4655"
+          },
+          {
+            "import": true,
+            "name": "Sanheili Fists",
+            "hidden": false,
+            "id": "6fd0-7843-d06b-810c",
+            "type": "selectionEntry",
+            "targetId": "949b-8de4-fbd6-d4a6"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "9bbe-10a6-841e-9449"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a665-341b-f25f-2ffa"
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Atriox, Jiralhanae Warmaster",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "1640-5cf1-8d8e-32af",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "5+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "3+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "4+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "8"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (2), Fearless, Imposing, Tactician (2), Unstoppable"
+          }
+        ]
+      },
+      {
+        "name": "Sangheili Mercenary",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "9e8a-196c-4c2a-1251",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "4+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "4+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "2-3"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "3"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (3), Evade"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae Berserker (Dynamo)",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "389d-f423-18fa-89bd",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "6+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "6+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "6"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Imposing"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae Captain",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "5fa8-39fe-8afb-0cfc",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "4+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "2"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "6"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (2), Imposing, Jump Pack, Tactician (1)"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae Sniper",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "d711-ba55-e5ed-ae3f",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "4+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "5+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "-"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "5"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (2), Imposing"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae Warrior",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "e82b-599c-bf10-8f64",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "5+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "5"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Imposing"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae Chosen Warrior",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "04f5-7360-3817-5c0f",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "5+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "5"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (1), Guarded, Imposing, Tactician (1)"
+          }
+        ]
+      },
+      {
+        "name": "Jiralhanae Berserker (Spike)",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "e5d5-4883-dcd7-4129",
+        "characteristics": [
+          {
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "6+"
+          },
+          {
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
+          },
+          {
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "6+"
+          },
+          {
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
+          },
+          {
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "6"
+          },
+          {
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (1), Imposing"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": " Alliance (Any Banished) ",
+        "hidden": false,
+        "id": "01be-aa1f-2611-11aa",
+        "type": "selectionEntry",
+        "targetId": "88a7-79db-aed8-96c8"
+      },
+      {
+        "import": true,
+        "name": " Defiance (Any Banished, Must include Atriox) ",
+        "hidden": false,
+        "id": "d258-8762-b08f-621b",
+        "type": "selectionEntry",
+        "targetId": "1312-575f-dc08-8050"
+      },
+      {
+        "import": true,
+        "name": " Rampage (Jiralhanae only) ",
+        "hidden": false,
+        "id": "5927-f6e5-5f10-abd1",
+        "type": "selectionEntry",
+        "targetId": "6d68-57d6-108c-5055"
+      },
+      {
+        "import": true,
+        "name": " Reinforcements Incoming (Sangheili Mercenaries only)",
+        "hidden": false,
+        "id": "3c4b-401f-3971-8588",
+        "type": "selectionEntry",
+        "targetId": "7cc9-d656-3d3c-ec7f"
+      },
+      {
+        "import": true,
+        "name": "Atriox, Jiralhanae Warmaster",
+        "hidden": false,
+        "id": "3788-010c-18b9-c7d6",
+        "type": "selectionEntry",
+        "targetId": "72ee-a7fe-86ea-772c"
+      },
+      {
+        "import": true,
+        "name": "Sangheili Mercenary (Energy Sword)",
+        "hidden": false,
+        "id": "8446-966e-c9c3-ec20",
+        "type": "selectionEntry",
+        "targetId": "a259-12f9-39dd-e899"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Berserker (Spike Grenade)",
+        "hidden": false,
+        "id": "3be8-5f49-51a9-dc99",
+        "type": "selectionEntry",
+        "targetId": "d564-9987-24ba-df23"
+      },
+      {
+        "import": true,
+        "name": "Sangheili Mercenary (Needler)",
+        "hidden": false,
+        "id": "79fd-cad6-38cf-42f9",
+        "type": "selectionEntry",
+        "targetId": "4b26-45d1-0647-ff12"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Berserker (Dynamo Grenade)",
+        "hidden": false,
+        "id": "506f-417e-0719-4091",
+        "type": "selectionEntry",
+        "targetId": "6463-0d54-ba3b-e85b"
+      },
+      {
+        "import": true,
+        "name": "Sangheili Mercenary (Plasma Rifle)",
+        "hidden": false,
+        "id": "bd81-fc33-a40a-8204",
+        "type": "selectionEntry",
+        "targetId": "0758-925f-1cab-f899"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Captain (MLRS-2 Hydra)",
+        "hidden": false,
+        "id": "a7f5-2733-b413-4fc9",
+        "type": "selectionEntry",
+        "targetId": "024c-e7bd-8a0e-cbcc"
+      },
+      {
+        "import": true,
+        "name": "Sangheili Mercenary (Pulse Carbine)",
+        "hidden": false,
+        "id": "22e4-1263-3481-acd2",
+        "type": "selectionEntry",
+        "targetId": "bb5a-215a-0608-22bb"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Captain (Ravager)",
+        "hidden": false,
+        "id": "c854-f1e2-2a98-c477",
+        "type": "selectionEntry",
+        "targetId": "954b-74d2-54d7-39a1"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Chosen Warrior",
+        "hidden": false,
+        "id": "ece3-c838-5c2c-4d14",
+        "type": "selectionEntry",
+        "targetId": "c173-e8d4-4ed2-0558"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Sniper (Shock Rifle)",
+        "hidden": false,
+        "id": "de3a-ddf7-03f9-ab7b",
+        "type": "selectionEntry",
+        "targetId": "c469-d4a5-66d9-6e8f"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Sniper (Skewer)",
+        "hidden": false,
+        "id": "60e4-5265-3f0d-feaf",
+        "type": "selectionEntry",
+        "targetId": "5c87-b8c6-5105-310d"
+      },
+      {
+        "import": true,
+        "name": "Jiralhanae Warrior",
+        "hidden": false,
+        "id": "8e74-dffa-6c67-5a4e",
+        "type": "selectionEntry",
+        "targetId": "d877-47de-573b-4e70"
+      }
+    ]
+  }
+}

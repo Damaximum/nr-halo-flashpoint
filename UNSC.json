@@ -1,0 +1,4435 @@
+{
+  "catalogue": {
+    "categoryEntries": [
+      {
+        "name": "Spartan Brawler",
+        "id": "69c4-20c5-0974-9229",
+        "hidden": false
+      },
+      {
+        "name": "Spartan MK VII",
+        "id": "303f-4cf3-8a66-752e",
+        "hidden": false
+      },
+      {
+        "name": "Spartan Deadeye",
+        "id": "ea97-b98e-0dbf-ae12",
+        "hidden": false
+      },
+      {
+        "name": "Spartan Zvezda",
+        "id": "6281-5240-88ea-5a83",
+        "hidden": false
+      },
+      {
+        "name": "Spartan CQB",
+        "id": "3686-00ec-4308-7872",
+        "hidden": false
+      },
+      {
+        "name": "Spartan HAZOP",
+        "id": "8670-7d82-83e4-a346",
+        "hidden": false
+      },
+      {
+        "name": "Spartan Gungnir",
+        "id": "5f8e-250c-0315-0033",
+        "hidden": false
+      },
+      {
+        "name": "Spartan JFO",
+        "id": "2a76-9b4a-a828-4f45",
+        "hidden": false
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 10,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "477a-6d73-7a76-468e"
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "c4f4-8a79-72b4-3f13"
+          }
+        ],
+        "name": "UNSC Special Orders",
+        "id": "6fa8-d610-d974-00b8",
+        "hidden": false
+      },
+      {
+        "name": "Spartans",
+        "id": "b5c4-8d22-51d8-2142",
+        "hidden": false
+      },
+      {
+        "name": "Legends",
+        "id": "e1e7-5dd4-de4e-7d50",
+        "hidden": false
+      },
+      {
+        "name": "ODST",
+        "id": "8182-1cf0-bbf8-2470",
+        "hidden": false
+      },
+      {
+        "name": "ODST Captain",
+        "id": "30a4-7f5f-a115-e664",
+        "hidden": false,
+        "publicationId": "5e4c-716d-7f6f-ade1"
+      },
+      {
+        "name": "ODST 2nd Lieutenant",
+        "id": "5b8f-ebdf-22be-b6dd",
+        "hidden": false,
+        "publicationId": "5e4c-716d-7f6f-ade1"
+      },
+      {
+        "name": "ODST Air Assault 'Bullfrog'",
+        "id": "6930-2fba-cca1-df88",
+        "hidden": false,
+        "publicationId": "5e4c-716d-7f6f-ade1"
+      },
+      {
+        "name": "ODST Firebreak",
+        "id": "fe10-3385-bc9f-9387",
+        "hidden": false,
+        "publicationId": "5e4c-716d-7f6f-ade1"
+      },
+      {
+        "name": "ODST Special Trooper",
+        "id": "4374-6af8-8130-9fca",
+        "hidden": false,
+        "publicationId": "5e4c-716d-7f6f-ade1"
+      }
+    ],
+    "forceEntries": [
+      {
+        "categoryLinks": [
+          {
+            "name": "UNSC Special Orders",
+            "hidden": false,
+            "id": "c690-50fd-ed0b-3299",
+            "targetId": "6fa8-d610-d974-00b8"
+          },
+          {
+            "name": "ODST",
+            "hidden": false,
+            "id": "35d0-efea-ab8b-4a7c",
+            "targetId": "8182-1cf0-bbf8-2470"
+          },
+          {
+            "name": "Legends",
+            "hidden": false,
+            "id": "4195-2e7c-febb-25a5",
+            "targetId": "e1e7-5dd4-de4e-7d50"
+          },
+          {
+            "name": "Spartans",
+            "hidden": false,
+            "id": "dc69-b5a2-a25d-872e",
+            "targetId": "b5c4-8d22-51d8-2142"
+          },
+          {
+            "name": "Command Upgrades",
+            "hidden": false,
+            "id": "6c88-9508-afbe-e9a7",
+            "targetId": "c928-e094-4703-7632"
+          }
+        ],
+        "name": "UNSC Fireteam",
+        "id": "5b40-dffb-a5c0-d1c2",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield Depleter (ESD) (n)",
+                "id": "b78d-464a-6743-d05c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "9085-340f-339c-693b"
+              }
+            ],
+            "name": "Keywords",
+            "id": "7c3e-0b6c-1be1-ca8f",
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "CC",
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77"
+              },
+              {
+                "$text": "2",
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b"
+              },
+              {
+                "$text": "ESD (1)",
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734"
+              }
+            ],
+            "name": "M11 Combat Knife",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "1d17-8047-483e-7529"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 4
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "M11 Combat Knife",
+        "hidden": false,
+        "id": "1960-87a0-12aa-82ba"
+      },
+      {
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "d44a-3f1f-b7fd-9887",
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "CC",
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77"
+              },
+              {
+                "$text": "1",
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b"
+              },
+              {
+                "$text": "-",
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734"
+              }
+            ],
+            "name": "Combat Knife",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "c56f-2dd5-529c-f987"
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Combat Knife (Default)",
+        "hidden": false,
+        "id": "5cba-7c97-438b-a366"
+      },
+      {
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "552a-dc61-6659-0644",
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "CC",
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77"
+              },
+              {
+                "$text": "-",
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b"
+              },
+              {
+                "$text": "-",
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734"
+              }
+            ],
+            "name": "Spartan Fists",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "0483-13ae-2343-4bf4"
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Fists",
+        "hidden": false,
+        "id": "ebbe-3672-5957-aa9b"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Stoic",
+                "id": "dc22-56ae-103b-166e",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "3284-8f16-2442-cd1f"
+              },
+              {
+                "name": "Energy Shield (n)",
+                "id": "7a75-00e0-0912-685b",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "0e3a-3c4a-59ef-3d1f",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "b54d-ed3c-838d-36ee",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Energy Sword (Default)",
+            "hidden": false,
+            "id": "a74e-e650-d2a5-7842",
+            "type": "selectionEntry",
+            "targetId": "e8c2-9166-70f3-09e1"
+          },
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "cb25-9409-003c-f89c",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "fc74-09ae-bd18-ca4c",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "e5d8-7004-1050-0e2a",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "entryLinks": [
+              {
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4304-93fd-5a21-e8b2"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d5ed-b8fc-ec6a-4f8e"
+                  }
+                ],
+                "import": true,
+                "name": "M11 Combat Knife",
+                "hidden": false,
+                "id": "03c2-f12e-b392-76e0",
+                "type": "selectionEntry",
+                "targetId": "1960-87a0-12aa-82ba"
+              }
+            ],
+            "name": "Combat Knife",
+            "id": "edb7-8be7-53b0-65e4",
+            "hidden": false
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "f660-6de5-1a9e-c60f",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Master Chief",
+            "id": "b5dc-f076-805f-4b19",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "4570-2170-84ec-3be1"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 90
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Master Chief",
+        "hidden": false,
+        "id": "2a69-d40f-95da-65e3"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Stealthy",
+                "id": "f8e6-00cb-cf26-e3e6",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e4d-d3c3-7a33-31a9"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "420c-c36f-ac90-348d",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "b23c-9dc4-7306-06df",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "7126-7360-04ec-6c4f",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "6890-9c04-00ea-e41d",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "d1c1-7c04-78b2-b492",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "2681-ed42-fb89-7a1f",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          },
+          {
+            "import": true,
+            "name": "M6C/SOCOM (Default)",
+            "hidden": false,
+            "id": "85a0-5547-fc6f-5db0",
+            "type": "selectionEntry",
+            "targetId": "ea18-7524-fcc1-c935"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Captain Veronica Dare",
+            "id": "8301-9bf1-51f4-b4fc",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "a731-0dca-6ed8-5c05"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "bbfd-be69-8adb-d109",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 40
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Captain Veronica Dare",
+        "hidden": false,
+        "id": "a25c-10be-cfe1-5db1"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Scout",
+                "id": "fc7a-7324-c55a-9c2f",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              },
+              {
+                "name": "Fast Transition",
+                "id": "2d45-b3bf-f573-3f0b",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "b86f-4561-81bb-b8cf"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "ec55-a456-9542-4f0e",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "44e7-8e70-4b7b-c740",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "a6ad-eecb-953a-b980",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "2446-b312-d68a-336d",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "9d08-6c1d-48db-ca2f",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Combat Knife (Default)",
+            "hidden": false,
+            "id": "1c09-1c0f-5c9b-f670",
+            "type": "selectionEntry",
+            "targetId": "5cba-7c97-438b-a366"
+          },
+          {
+            "import": true,
+            "name": "MA40 Assault Rifle (Default)",
+            "hidden": false,
+            "id": "ad71-4a3a-87d7-5d40",
+            "type": "selectionEntry",
+            "targetId": "9cf9-8642-534f-0f7c"
+          },
+          {
+            "import": true,
+            "name": "M6G Magnum (Default)",
+            "hidden": false,
+            "id": "3687-08fd-be37-0927",
+            "type": "selectionEntry",
+            "targetId": "e3e5-e1ef-27ce-2101"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Gunnery Sergeant Buck",
+            "id": "3fad-ffa0-6d54-7a4b",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "edca-b7e7-d466-bb20"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "925e-45b1-0fd2-8a45",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 48
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Gunnery Sergeant Buck",
+        "hidden": false,
+        "id": "4ec6-9ed0-f853-0ba4"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Scout",
+                "id": "a25b-4e20-5556-8ec8",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "5d7b-7f54-b4ba-b25c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "9a60-6046-a69f-7791",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "ad24-b45f-8590-aa19",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "9a84-5548-dc52-42f2",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "d1dd-fc1b-1e8e-5559",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "4014-a723-a57f-61f5",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          },
+          {
+            "import": true,
+            "name": "MA5K 'Avenger' Carbine (Default)",
+            "hidden": false,
+            "id": "d1fd-ab61-6898-969e",
+            "type": "selectionEntry",
+            "targetId": "04c9-199d-f1bf-8dbf"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST 2nd Lieutenant",
+            "id": "d716-55bb-444b-a035",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "911f-9539-db8b-979e"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 28
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "5935-c6c4-06ae-8eda",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST 2nd Lieutenant",
+        "hidden": false,
+        "id": "b78f-fb61-86ad-bab8"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "1624-0aaf-607e-26ff",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Imposing",
+                "id": "d744-c3bc-8115-cedc",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ],
+            "name": "Keywords",
+            "id": "07b2-cea8-ae16-c643",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "c18b-3aff-07df-d8bf",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "2108-c5cf-0bfc-4bc5",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "131c-0d07-d78f-a939",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "dfa8-97fd-5c80-d35c",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Energy Sword (Default)",
+            "hidden": false,
+            "id": "643a-7494-8806-b60f",
+            "type": "selectionEntry",
+            "targetId": "e8c2-9166-70f3-09e1"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan CQB",
+            "id": "c740-a1a7-1c96-c87b",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "0295-3874-17ab-5a1c"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "1e18-1245-eec7-c97a",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 48
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan CQB (Energy Sword)",
+        "hidden": false,
+        "id": "5248-5d06-6567-54e0"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "f044-1a5b-6759-c1a2",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Fast Transition",
+                "id": "d6d0-227d-60df-18a8",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "b86f-4561-81bb-b8cf"
+              }
+            ],
+            "name": "Keywords",
+            "id": "a324-2079-50c2-ee65",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "87d9-31a0-66fe-e92d",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "24f7-3402-932b-435f",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "cb22-6583-714d-79e7",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "8fed-fa2e-ee06-1b29",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Stalker Rifle (Default)",
+            "hidden": false,
+            "id": "8bbf-5026-4bfe-4979",
+            "type": "selectionEntry",
+            "targetId": "57d0-bb71-a125-56ac"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Deadeye",
+            "id": "0897-ebbf-d9d6-006e",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "01fd-debc-e9b0-c594"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "da18-b4ce-a77f-fce1",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 48
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Deadeye (Stalker Rifle)",
+        "hidden": false,
+        "id": "1db1-95df-9d00-c3e4"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "8a91-f59e-d054-44fb",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Fast Transition",
+                "id": "9d18-6144-c394-236f",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "b86f-4561-81bb-b8cf"
+              }
+            ],
+            "name": "Keywords",
+            "id": "f766-926e-7abc-822f",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "9bcc-972b-4be4-a838",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "2d3a-b9e5-b360-6fa9",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "ddd6-4829-6050-c33f",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "aacb-5504-d85f-393e",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "M392 DMR (Default)",
+            "hidden": false,
+            "id": "bf27-74f0-a839-8a8a",
+            "type": "selectionEntry",
+            "targetId": "8355-f490-e0fd-dc94"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Deadeye",
+            "id": "9f5f-2556-17c1-05bc",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "01fd-debc-e9b0-c594"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "a378-47ff-4f70-e5e5",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 46
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Deadeye (M392 DMR)",
+        "hidden": false,
+        "id": "6780-087e-077e-95a8"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "c716-5441-78a9-674a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Stable",
+                "id": "b19d-d952-180c-e1b9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "6edc-d1e6-07dc-edf6"
+              },
+              {
+                "name": "Guarded",
+                "id": "3369-a27c-fb09-25ab",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "d61b-fa4c-fa16-40d7"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "0210-a004-847c-80ee",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "c61c-0f01-0b75-1c47",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "606c-0061-92b5-66df",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "e90e-6fd9-b302-fee6",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "fd0f-7172-db86-897c",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "9b4c-719a-6f16-13a5",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Plasma Launcher (Default)",
+            "hidden": false,
+            "id": "8231-3d93-7b59-3588",
+            "type": "selectionEntry",
+            "targetId": "6fff-cb87-a847-a662"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Gungnir",
+            "id": "5b79-a328-6da0-cd64",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "36cb-57d8-63fc-b64e"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4292-3330-d5e1-a9ba",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 46
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Gungnir (Plasma Launcher)",
+        "hidden": false,
+        "id": "0a2d-2b35-a9e7-c356"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "d6a0-cbc9-ff24-7e9c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Guarded",
+                "id": "824a-cc51-93ea-1284",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "d61b-fa4c-fa16-40d7"
+              },
+              {
+                "name": "Stable",
+                "id": "8db5-2f4e-4091-a16a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "6edc-d1e6-07dc-edf6"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "f089-8587-17d5-70bb",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "c580-86dd-5588-dc9f",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "a9ed-8065-df30-bef4",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "5e67-767a-0700-50e2",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "0bdd-22ff-02b2-da87",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "b237-544a-8ecf-a90f",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "M319 Grenade Launcher (Default)",
+            "hidden": false,
+            "id": "49e7-1d67-70ba-f957",
+            "type": "selectionEntry",
+            "targetId": "a3fa-4430-4042-b376"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Gungnir",
+            "id": "93f9-d647-8ceb-706a",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "36cb-57d8-63fc-b64e"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "5d07-6bc5-70ac-979a",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 45
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Gungnir (M319 Grenade Launcher)",
+        "hidden": false,
+        "id": "d288-d893-3e73-9179"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "266e-a421-7906-efa7",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Flight",
+                "id": "4466-f392-f610-6f26",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "b5a5-38f7-84a6-1f68"
+              }
+            ],
+            "name": "Keywords",
+            "id": "ec82-7c45-b3da-daef",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "b210-d901-e9f6-64b4",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "ba88-b90e-7027-52f5",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "3458-c368-93c5-556e",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "b7c7-93ae-655b-147c",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "M45 Shotgun (Default)",
+            "hidden": false,
+            "id": "2615-a354-c47a-5b96",
+            "type": "selectionEntry",
+            "targetId": "d759-645a-d401-e4f0"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan HAZOP",
+            "id": "92bb-bb14-bd48-85f7",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "64cd-0475-a1a4-99dc"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "98ad-49e3-1ebe-1926",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 36
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan HAZOP (M45 Shotgun)",
+        "hidden": false,
+        "id": "ecb7-b371-9762-4de8"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "e61e-8bd7-2ab6-84ef",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Fire",
+                "id": "0322-7e57-f3bc-369d",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "d275-08b0-1969-d452"
+              }
+            ],
+            "name": "Keywords",
+            "id": "c0d7-4c92-2251-b322",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "2f60-6f68-4328-3ca4",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "bdb4-86d4-a89b-0b36",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "f1c0-2107-bd24-ece4",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "db51-0e3c-c739-dd05",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Spike Rifle (Default)",
+            "hidden": false,
+            "id": "9b40-e196-5625-4c92",
+            "type": "selectionEntry",
+            "targetId": "41ad-52de-5639-0506"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan HAZOP",
+            "id": "0249-5843-3c6e-b337",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "64cd-0475-a1a4-99dc"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "ffbd-ad2e-f9df-d7b4",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 38
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan HAZOP (Spike Rifle)",
+        "hidden": false,
+        "id": "8366-1617-d5c5-0935"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield Barrier (n)",
+                "id": "498a-9a0e-db98-112d",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "fad5-8024-b23f-8ef9"
+              },
+              {
+                "name": "Scout",
+                "id": "d99f-1c06-70c4-4053",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "8e93-6bc0-7835-12b1",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "d6dd-de13-0a92-4672",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "a704-73b9-bbef-6407",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "dddd-9ef0-765b-2748",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "0bb7-807b-f7e9-89ee",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "d969-943d-ea9b-ce0f",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "H-165 Target Locator (Default)",
+            "hidden": false,
+            "id": "1d03-124e-9940-245b",
+            "type": "selectionEntry",
+            "targetId": "8eb6-d8a3-2e69-a43a"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan JFO",
+            "id": "55b0-4522-258b-91a9",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "ec59-b6c3-00fd-16c7"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "ccdd-7b82-c917-0574",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 45
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan JFO (H-165 Target Locator)",
+        "hidden": false,
+        "id": "1787-c875-5664-b8f0"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "b642-4fa4-8f80-8066",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Scout",
+                "id": "6b2d-58c2-5f3b-cc05",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "d76a-50d2-9b41-daea",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "2e2a-fed6-de98-48d3",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "9998-bd3f-c708-eff9",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "2600-0e1e-bc0f-a7f6",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "ea0d-bf2d-e9d3-b802",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "e1fb-f86d-a4b8-94ef",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Concussion Rifle (Default)",
+            "hidden": false,
+            "id": "7d91-5670-77db-9618",
+            "type": "selectionEntry",
+            "targetId": "3e64-01b6-7645-a4fa"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan JFO",
+            "id": "759f-3edb-6d34-85fb",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "ec59-b6c3-00fd-16c7"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2009-a128-87b0-819b",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 43
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan JFO (Concussion Rifle)",
+        "hidden": false,
+        "id": "1403-124f-6586-cbc3"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "aa45-8dcf-8461-1416",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "b76c-b89b-19c5-0cce",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "9fc7-053f-0451-9f0e",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "afbd-8df8-8ec6-d14d",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "5619-ace2-424f-0504",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "33d1-701d-a33d-e6c4",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "08d7-7050-c4e4-efc7",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Pulse Carbine (Default)",
+            "hidden": false,
+            "id": "67bf-aa49-eefd-4dd8",
+            "type": "selectionEntry",
+            "targetId": "d2c1-6439-e1ca-b46a"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan MK VII",
+            "id": "8cd7-7817-d464-d706",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "3833-4320-2c3e-b05f"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "15ec-a7b3-8055-7798",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 45
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan MK VII (Pulse Carbine)",
+        "hidden": false,
+        "id": "d444-ab79-454b-0efc"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "81a6-52f6-c076-3c9a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Tactician (n)",
+                "id": "9425-f5d7-a10e-349c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "49d4-1585-77a7-1c21",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "8df8-b26f-7662-ebaa",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "a7a9-5a67-d39f-3743",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "ad93-c4b3-d687-3b66",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "3393-41c5-2269-d484",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "MA40 Assault Rifle (Default)",
+            "hidden": false,
+            "id": "d2f5-f96f-c570-e139",
+            "type": "selectionEntry",
+            "targetId": "9cf9-8642-534f-0f7c"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan MK VII",
+            "id": "37ba-227d-0221-8d50",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "3833-4320-2c3e-b05f"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "69a2-144a-9dab-e76d",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 40
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan MK VII (MA40 Assault Rifle)",
+        "hidden": false,
+        "id": "13ad-efb3-b0de-27d6"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "c7d0-1f7b-d9b1-e3f9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Scout",
+                "id": "5fdc-dc19-1fa5-e145",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              }
+            ],
+            "name": "Keywords",
+            "id": "ff1d-73af-989a-5429",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "48ff-91fc-59e3-f188",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "21d1-2988-bac8-deec",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "6092-b9b9-2a4c-a129",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "db53-9fb4-02d5-10fe",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Cindershot (Default)",
+            "hidden": false,
+            "id": "4350-6588-3063-ecb4",
+            "type": "selectionEntry",
+            "targetId": "a533-ef17-520a-9c6f"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Zvezda",
+            "id": "01bb-c2ca-a37e-1c47",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9ac4-9b6b-90e2-04df"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "7e7f-6df4-f988-817b",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 37
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Zvezda (Cindershot)",
+        "hidden": false,
+        "id": "2787-f067-da88-0683"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "6d44-619a-30f9-f0b9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Scout",
+                "id": "a9a2-88e4-8ed0-749a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              }
+            ],
+            "name": "Keywords",
+            "id": "9e99-1d0c-cdc7-7ab1",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "04c8-0011-a85c-517d",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "9b17-719e-1b32-4505",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "8428-a13a-7933-f7cb",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "1dfc-e5ac-ae3a-fbde",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "VK78 Commando (Default)",
+            "hidden": false,
+            "id": "43dc-bb9e-9c84-1467",
+            "type": "selectionEntry",
+            "targetId": "edff-ad6e-ea9e-7e23"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Zvezda",
+            "id": "b96e-7291-9494-e3d8",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9ac4-9b6b-90e2-04df"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "078e-71fe-9305-5fa2",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 36
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Zvezda (VK78 Commando)",
+        "hidden": false,
+        "id": "1981-2457-9b52-2579"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "4a82-1f8a-66a7-3a4f",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              },
+              {
+                "name": "Imposing",
+                "id": "91da-c780-bd9e-7fe9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8e73-22b3-8bb6-bba2"
+              }
+            ],
+            "name": "Keywords",
+            "id": "5781-ecd6-83de-2333",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "5def-df4f-a85e-61b4",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "a125-07e4-a438-6348",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "691b-35b3-39fb-3ce8",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "956b-d2a2-8d39-6bbf",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Gravity Hammer (Default)",
+            "hidden": false,
+            "id": "69a8-dad7-aac5-e321",
+            "type": "selectionEntry",
+            "targetId": "fb53-4505-497f-2ca7"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan CQB",
+            "id": "9125-06b0-e0ea-aa99",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "0295-3874-17ab-5a1c"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "d942-63da-a76b-58d3",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 47
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan CQB (Gravity Hammer)",
+        "hidden": false,
+        "id": "9ff5-6361-3b46-4c84"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "517c-0998-8410-fea0",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              }
+            ],
+            "name": "Keywords",
+            "id": "8a76-9e32-4491-5f68",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "d609-1f03-3a4e-72f9",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "a9df-b5bb-2e68-ea6b",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "afe1-10fa-d0f8-4fe4",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "73d5-2051-7c77-9586",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "Needler (Default)",
+            "hidden": false,
+            "id": "f7c3-d65d-50ed-7b4e",
+            "type": "selectionEntry",
+            "targetId": "99e9-a5f8-6a1e-df3d"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Brawler",
+            "id": "8c54-0846-f650-dc14",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "440f-6936-6fcc-8a10"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "54f0-fc9b-8859-8eb2",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 38
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Brawler (Needler)",
+        "hidden": false,
+        "id": "720d-0c1b-186e-29bb"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Energy Shield (n)",
+                "id": "5c3a-5755-9836-eff9",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "4681-64c1-c51a-affe"
+              }
+            ],
+            "name": "Keywords",
+            "id": "5907-163f-cbc2-0a61",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "e444-904b-33f7-96e7",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "d567-23a3-0655-a2f2",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "a383-f0e9-8f29-f139",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (Spartan)",
+            "hidden": false,
+            "id": "fbdb-e1e8-0924-467b",
+            "type": "selectionEntryGroup",
+            "targetId": "40ab-bb8f-dbba-8066"
+          },
+          {
+            "import": true,
+            "name": "CQS48 Bulldog (Default)",
+            "hidden": false,
+            "id": "9cdc-b473-449a-756c",
+            "type": "selectionEntry",
+            "targetId": "9b3a-f190-8093-6122"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Spartan Brawler",
+            "id": "5535-1928-f991-a93c",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "440f-6936-6fcc-8a10"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "5f3a-9a05-61c2-ac1a",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 37
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Spartan Brawler (CQS48 Bulldog)",
+        "hidden": false,
+        "id": "7ac5-ed0b-9056-b321"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Scout",
+                "id": "c2bc-67ec-e1cd-01d1",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              }
+            ],
+            "name": "Keywords",
+            "id": "1c9f-0a27-b4c8-0c36",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "8976-6c1b-4120-11c8",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "acdd-d442-654d-3c72",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "6358-718f-3508-3ed4",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "506b-be0e-3878-0ee4",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          },
+          {
+            "import": true,
+            "name": "M392 DMR (Default)",
+            "hidden": false,
+            "id": "0742-6363-d702-5166",
+            "type": "selectionEntry",
+            "targetId": "8355-f490-e0fd-dc94"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Special Tropper",
+            "id": "67e8-e9b0-c4f8-8763",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5809-5e6e-7939-9824"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4fe6-d84b-15e6-fedc",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 23
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Special Purpose Trooper (M392 DMR)",
+        "hidden": false,
+        "id": "f9c7-b65b-997c-de9c"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Scout",
+                "id": "ea7b-8c01-fb3f-05b6",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "dc7d-d45d-838c-e71e"
+              }
+            ],
+            "name": "Keywords",
+            "id": "c60b-2ad8-edb1-7d55",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "e454-1562-8421-7c51",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "3d73-91ca-9d07-f112",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "1ee6-b50a-b95a-a12f",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "3feb-5650-9397-e1e6",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          },
+          {
+            "import": true,
+            "name": "BR55 Battle Rifle (Default)",
+            "hidden": false,
+            "id": "2a59-090a-f1ad-97d7",
+            "type": "selectionEntry",
+            "targetId": "9661-1df3-db40-98fa"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Special Tropper",
+            "id": "ca67-a87f-acdb-7ded",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5809-5e6e-7939-9824"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "69cb-a4ff-bc74-3065",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 25
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Special Purpose Trooper (BR55 Battle Rifle)",
+        "hidden": false,
+        "id": "fc4a-4438-3830-d0aa"
+      },
+      {
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "1672-ef22-ac07-c16e",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "c7b8-c208-1e62-dbf1",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "4cd6-4deb-e053-acd3",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "e2ff-de5d-a05c-6288",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "50d2-f86c-6282-b384",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          },
+          {
+            "import": true,
+            "name": "Demolition Charge (Default)",
+            "hidden": false,
+            "id": "d86e-938d-2929-0d6a",
+            "type": "selectionEntry",
+            "targetId": "8cf2-0f85-ed77-fc51"
+          },
+          {
+            "import": true,
+            "name": "M90 Shotgun (Default)",
+            "hidden": false,
+            "id": "aa68-4b8b-0abb-9c0d",
+            "type": "selectionEntry",
+            "targetId": "7ca3-25d8-abec-7b44"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Firebreak",
+            "id": "d755-081b-6496-bd51",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d437-b140-717a-5d5b"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "b8d9-16ee-64b5-98e3",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 30
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Firebreak (M90 Shotgun)",
+        "hidden": false,
+        "id": "06f3-4b28-2fdf-92ca"
+      },
+      {
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "1b50-ddd0-c34a-6ce8",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "f8cd-18ec-0cab-3692",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "5edd-9459-5ee7-7385",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "d17c-b3d1-206e-9095",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "M7057 Flamethrower (Default)",
+            "hidden": false,
+            "id": "510a-6766-80f7-ad33",
+            "type": "selectionEntry",
+            "targetId": "c8e7-2ef8-1da1-fe81"
+          },
+          {
+            "import": true,
+            "name": "Demolition Charge (Default)",
+            "hidden": false,
+            "id": "9e67-a5a3-173e-6130",
+            "type": "selectionEntry",
+            "targetId": "8cf2-0f85-ed77-fc51"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "2766-219d-fe3b-88f0",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Firebreak",
+            "id": "9212-d388-94c0-3301",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d437-b140-717a-5d5b"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4e18-1258-2604-9348",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 29
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Firebreak (M7057 Flamethrower)",
+        "hidden": false,
+        "id": "df23-892c-ec35-f21d"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Tactician (n)",
+                "id": "3d91-87f8-52d5-679a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "0c27-a0b7-e267-67d7"
+              }
+            ],
+            "name": "Keywords",
+            "id": "8fef-1d88-3448-bc4d",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "b7f9-644d-b24f-2ccd",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "721c-4437-b1d7-cc9c",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "8a2d-f90e-eb9a-e072",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "M6C/SOCOM (Default)",
+            "hidden": false,
+            "id": "ef64-8000-7bd1-5a7d",
+            "type": "selectionEntry",
+            "targetId": "ea18-7524-fcc1-c935"
+          },
+          {
+            "import": true,
+            "name": "Close Combat (ODST)",
+            "hidden": false,
+            "id": "2b80-fb3c-2fc1-43ca",
+            "type": "selectionEntryGroup",
+            "targetId": "0001-ede4-38ec-e1d7"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Captain",
+            "id": "9701-4d51-7354-b5aa",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "e571-627e-e5e1-adb5"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "090f-0427-c147-10cb",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 35
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Captain",
+        "hidden": false,
+        "id": "e4b6-6c94-3b86-6729"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Acrobatic",
+                "id": "467a-37f5-f0c2-e781",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "ac8b-b298-e4bc-41cb"
+              },
+              {
+                "name": "Jump Pack",
+                "id": "96a7-f747-0710-e831",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e014-c61c-b814-d96a"
+              }
+            ],
+            "name": "Keywords",
+            "id": "f933-e4f0-a071-e251",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "3d5f-cac1-56c3-af49",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "9896-d2d9-af08-e15c",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "3510-1385-597b-132c",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "MA40 Assault Rifle (Default)",
+            "hidden": false,
+            "id": "5c51-e633-fa68-2e2b",
+            "type": "selectionEntry",
+            "targetId": "9cf9-8642-534f-0f7c"
+          },
+          {
+            "import": true,
+            "name": "Combat Knife (Default)",
+            "hidden": false,
+            "id": "60af-2c3b-b735-d840",
+            "type": "selectionEntry",
+            "targetId": "5cba-7c97-438b-a366"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Air Assault 'Bullfrog'",
+            "id": "56c8-30b3-d062-6a4c",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "3af4-7129-665c-171e"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "ad4a-9695-7f43-d9f8",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 26
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Air Assault 'Bullfrog' (MA40 Assault Rifle)",
+        "hidden": false,
+        "id": "bc13-cdf0-44ee-f266"
+      },
+      {
+        "infoGroups": [
+          {
+            "infoLinks": [
+              {
+                "name": "Acrobatic",
+                "id": "3eba-1d4a-ff4a-8b5f",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "ac8b-b298-e4bc-41cb"
+              },
+              {
+                "name": "Jump Pack",
+                "id": "757b-61ad-4679-94bd",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "e014-c61c-b814-d96a"
+              }
+            ],
+            "name": "Keywords",
+            "id": "f46c-38e8-dfe0-6a94",
+            "hidden": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Grenades",
+            "hidden": false,
+            "id": "0744-b0d5-ac68-cb46",
+            "type": "selectionEntryGroup",
+            "targetId": "271a-782b-da24-1631"
+          },
+          {
+            "import": true,
+            "name": "Items",
+            "hidden": false,
+            "id": "d331-c34d-6800-bb7d",
+            "type": "selectionEntryGroup",
+            "targetId": "c149-9cbb-921f-a57e"
+          },
+          {
+            "import": true,
+            "name": "Weapon Upgrade",
+            "hidden": false,
+            "id": "f904-7400-11d2-1ffd",
+            "type": "selectionEntryGroup",
+            "targetId": "8060-29f9-b2b0-ba77"
+          },
+          {
+            "import": true,
+            "name": "M7S SMG (Default)",
+            "hidden": false,
+            "id": "4809-d0ac-8b7a-5503",
+            "type": "selectionEntry",
+            "targetId": "783a-c197-21f0-59b0"
+          },
+          {
+            "import": true,
+            "name": "Combat Knife (Default)",
+            "hidden": false,
+            "id": "962e-ac32-1972-116d",
+            "type": "selectionEntry",
+            "targetId": "5cba-7c97-438b-a366"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "ODST Air Assault 'Bullfrog'",
+            "id": "0bc7-363f-42a5-8bcf",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "3af4-7129-665c-171e"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 29
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "714d-8137-6dbf-86ed",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "ODST Air Assault 'Bullfrog' (M7S SMG)",
+        "hidden": false,
+        "id": "074e-5e46-e516-b697"
+      },
+      {
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "b6e6-06e4-c9a1-fe17",
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "CC",
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77"
+              },
+              {
+                "$text": "-",
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b"
+              },
+              {
+                "$text": "-",
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734"
+              }
+            ],
+            "name": "Fists",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "69cc-6a33-8a60-8f69"
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Fists",
+        "hidden": false,
+        "id": "cca4-7cb7-6c40-544d"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "40f5-9d7d-48b1-3c4a",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "To represent the extraordinary abilities of the Master Chief, at the start of the Master chief's activation you may use a Special Order result to allow the use of any number of Advance, Assault, or Shoot command dice results during that activation.\n\nThe Master Chief may also use the Snap Shot special order.\n\n\nThe Master Chief may be taken in place of 2 other Spartans when drafting your Spartan fireteam.",
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41"
+              }
+            ],
+            "name": "One Man Army (Master Chief only)",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "4a79-0021-f837-a032"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 10
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": " One Man Army (Master Chief only)",
+        "hidden": false,
+        "id": "1353-6283-946c-fc3e"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "8a84-5c0a-55b2-5682",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "At the start of each round, immediately after rolling command dice is completed, you may spend a Special Order result to take one face-down item token from the supply pile and place it in any cube which contains no models.\n\nDo not look at the item when placing it. If the location contains a building, it must be placed on the highest level of the stack.\n\n\nYou may spend any number of Special Order results in this way. Choose a different cube for each item placed.",
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41"
+              }
+            ],
+            "name": " Supply Drop (Any UNSC) ",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "482d-2b4e-a048-939f"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 3
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": " Supply Drop (Any UNSC) ",
+        "hidden": false,
+        "id": "8ddd-f7de-687b-f50d"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "474d-00e1-d638-ec59",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "You may only use this special order once per round. It does not require Veronica Dare to be present on the board at the time of use. \nAt the start of the round, immediately after Command dice have been rolled and any rerolls performed, spend a Special Order result to change 2 of your remaining command dice to results of your choice.",
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41"
+              }
+            ],
+            "name": " Your Orders Have Changed (Must include Dare) ",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "c8f8-50ec-a0a3-ce81"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 6
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": " Your Orders Have Changed (Must include Dare) ",
+        "hidden": false,
+        "id": "3345-743d-642e-730d"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "7918-4352-cd75-02a0",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "When an ODST is respawning: Instead of using its first action to advance onto the board at a respawn point, you may spend a Special Order result to take on auxiliary action instead to deploy the model into any cube on the board which contains no models. If location contains a building, it must be placed on the highest level stack. Roll a 3 dice Ranged test (2). No effect if the test is passed. If failed, the model is Pinned and scatters into an adjacent cube (make a Scatter roll to determine which direction - this is forced movement from the target cube)\n\n\nAt the start of the first round: Immediately after rolling command dice is completed, you may spend a Special Order result to remove one friendly ODST from the board and redeploy it as described above (model placement and the Ranged test). When that model activates, it will only have one short action to use that turn (ignore this restriction if the model is killed before it activates). You may spend any number of Special Order results to redeploy that many ODST.",
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41"
+              }
+            ],
+            "name": " Hot Drop (Any ODST)",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "728c-00cb-772e-6c16"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 7
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": " Hot Drop (Any ODST)",
+        "hidden": false,
+        "id": "a684-0c41-9d76-4ebc"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "ea57-e67f-4ca8-cafa",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "When a grenade lands in the same cube as a friendly Spartan, you may spend a Special Order result to allow that Spartan to attempt to catch it and throw it. It doesn't matter if the grenade was thrown accurately or scattered into the cube. May only be used with weapons/items called a ____ Grenade (e.g. Plasma Grenade), not any kind of grenade launcher or other weapon which shoots grenades. You must declare the use of the Special Order before your opponent resolves the effect of the grenade (rolling Frag, etc.)\n\n\nFirst, roll a 3 dice Survive test (2) to catch the grenade. If you roll 1 or 0 successes, the catch failed and the grenade is resolved as normal. If you roll the 2 or more successes required, the Spartan may then throw the grenade as if making a Shoot action. You resolve the grenade effects wherever it lands (it is your grenade now).",
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41"
+              }
+            ],
+            "name": " Return to Sender (Any Spartan)",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "edce-3dd8-7d14-0d49"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 3
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": " Return to Sender (Any Spartan)",
+        "hidden": false,
+        "id": "428e-078c-3347-6f0a"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "8551-2076-3df6-fc6c",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "When: When one of your opponent's models moves into a cube which contains one of your models using an Advance or Sprint action which woudl trigger a free Assault action. Your opponent must specify which of your models is being attacked, if there is more than one in the cube, before this Special Order use is declared. Before the free ASsault action is performed, declare the use of this Special Order and discard the Command Die showing that result. May not be used if there is already another enemy model in the cube with your model or if your model is Pinned.\n\n\nWhat: The model being assaulted may make a free Shoot action against the attacker (short action only). Use one of the model's equipped ranged weapons, including all the keywords for that weapon, but do not apply the following Shoot action modifiers: Clear shot, High Ground, Friendly Fire. Apply damage to the enmy model as normal. If the Shoot attack cuases the enemy model to be moved out of the cube (e.g. Knockback) or Pinned, the opponent's free Assault action does not take place.",
+                "name": "Details",
+                "typeId": "32dd-8921-9c78-cd41"
+              }
+            ],
+            "name": " Snap Shot (Any Spartan)",
+            "typeId": "ac8a-0e00-7741-c9d7",
+            "typeName": "Special Order",
+            "hidden": false,
+            "id": "7f03-c7d8-39ee-5b99"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 5
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": " Snap Shot (Any Spartan)",
+        "hidden": false,
+        "id": "4618-14ce-9e2a-22fb"
+      },
+      {
+        "infoGroups": [
+          {
+            "name": "Keywords",
+            "id": "a47e-ed8d-62a0-f987",
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "$text": "CC",
+                "name": "Range",
+                "typeId": "c685-2ffd-a66f-ab77"
+              },
+              {
+                "$text": "1",
+                "name": "AP",
+                "typeId": "a2b8-87bd-3c79-107b"
+              },
+              {
+                "$text": "-",
+                "name": "Keywords",
+                "typeId": "38c3-e196-bb17-1734"
+              }
+            ],
+            "name": "Combat Knife",
+            "typeId": "49bf-a2d1-7a64-717e",
+            "typeName": "Weapons",
+            "hidden": false,
+            "id": "251d-4de2-dea3-1776"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Points",
+            "typeId": "e571-c9d9-345c-8ef2",
+            "value": 2
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Combat Knife",
+        "hidden": false,
+        "id": "0cf1-9865-8d85-61c2"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "characteristics": [
+          {
+            "$text": "3+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "3+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "3+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "5",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy shield (3), Stoic, Tactician (3)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Master Chief",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "4570-2170-84ec-3be1"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "6+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "6+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-2",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "3",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Stealthy, Tactician (2)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Captain Veronica Dare",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "a731-0dca-6ed8-5c05"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "3+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "4+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "4+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "1",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "1-2",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Fast Transition, Scout, Tactician (1)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Gunnery Sergeant Buck",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "edca-b7e7-d466-bb20"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "4+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "1",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-2",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "3",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Scout, Tactician (1)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "ODST 2nd Lieutenant",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "911f-9539-db8b-979e"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "4+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "1",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-2",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "3",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Tactician (2)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "ODST Captain",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "e571-627e-e5e1-adb5"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "5+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "4+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "1",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "1",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Acrobatic, Jump Pack",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "ODST Air Assault 'Bullfrog'",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "3af4-7129-665c-171e"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "1",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-2",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "3",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "-",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "ODST Firebreak",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "d437-b140-717a-5d5b"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "5+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "3+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan Brawler",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "440f-6936-6fcc-8a10"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "1",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-2",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "3",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Scout",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "ODST Special Tropper",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "5809-5e6e-7939-9824"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "5+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "4+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "6+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "3",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "5",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Imposing",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan CQB",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "0295-3874-17ab-5a1c"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "3+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Fast Transition",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan Deadeye",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "01fd-debc-e9b0-c594"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Guarded, Stable, Tactician (1)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan Gungnir",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "36cb-57d8-63fc-b64e"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "5+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Flight",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan HAZOP",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "64cd-0475-a1a4-99dc"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "4+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "1-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Scout",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan Zvezda",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "9ac4-9b6b-90e2-04df"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "4+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "4+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "2",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Tactician (!)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan MK VII",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "3833-4320-2c3e-b05f"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "5+",
+            "name": "RA",
+            "typeId": "1cbd-dd42-cb42-70cc"
+          },
+          {
+            "$text": "5+",
+            "name": "FI",
+            "typeId": "945b-dfd9-0b36-b383"
+          },
+          {
+            "$text": "5+",
+            "name": "SV",
+            "typeId": "44a3-69cf-7d55-3bd6"
+          },
+          {
+            "$text": "3",
+            "name": "Armour",
+            "typeId": "da67-cd18-63a3-a31f"
+          },
+          {
+            "$text": "2-3",
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "$text": "4",
+            "name": "HP",
+            "typeId": "59e3-11bd-4376-aa67"
+          },
+          {
+            "$text": "Energy Shield (2), Scout, Tactician (1)",
+            "name": "Keywords",
+            "typeId": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "name": "Spartan JFO",
+        "typeId": "adec-6a97-8887-db81",
+        "typeName": "Model Profile",
+        "hidden": false,
+        "id": "ec59-b6c3-00fd-16c7"
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "M11 Combat Knife",
+            "hidden": false,
+            "id": "5556-cf95-549a-6500",
+            "type": "selectionEntry",
+            "targetId": "1960-87a0-12aa-82ba"
+          },
+          {
+            "import": true,
+            "name": "Spartan Fists",
+            "hidden": false,
+            "id": "c60e-17f0-eee7-0468",
+            "type": "selectionEntry",
+            "targetId": "ebbe-3672-5957-aa9b"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "8ad2-ddb4-9dde-6932"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "193a-f377-4c7d-3185"
+          }
+        ],
+        "name": "Close Combat (Spartan)",
+        "id": "40ab-bb8f-dbba-8066",
+        "hidden": false
+      },
+      {
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "6d66-4742-c15a-2667"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "cd81-e005-5fbc-8b25"
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Combat Knife",
+            "hidden": false,
+            "id": "2424-02ee-f641-1e9f",
+            "type": "selectionEntry",
+            "targetId": "0cf1-9865-8d85-61c2"
+          },
+          {
+            "import": true,
+            "name": "Fists",
+            "hidden": false,
+            "id": "e04c-dbd2-c78c-7b98",
+            "type": "selectionEntry",
+            "targetId": "cca4-7cb7-6c40-544d"
+          }
+        ],
+        "name": "Close Combat (ODST)",
+        "id": "0001-ede4-38ec-e1d7",
+        "hidden": false
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": " Hot Drop (Any ODST)",
+        "hidden": false,
+        "id": "056e-ceca-803e-d671",
+        "type": "selectionEntry",
+        "targetId": "a684-0c41-9d76-4ebc"
+      },
+      {
+        "import": true,
+        "name": " One Man Army (Master Chief only)",
+        "hidden": false,
+        "id": "2e8b-50e6-3ec2-1305",
+        "type": "selectionEntry",
+        "targetId": "1353-6283-946c-fc3e"
+      },
+      {
+        "import": true,
+        "name": " Return to Sender (Any Spartan)",
+        "hidden": false,
+        "id": "27cf-30a0-8396-7134",
+        "type": "selectionEntry",
+        "targetId": "428e-078c-3347-6f0a"
+      },
+      {
+        "import": true,
+        "name": " Snap Shot (Any Spartan)",
+        "hidden": false,
+        "id": "82f5-52b0-2c40-4b91",
+        "type": "selectionEntry",
+        "targetId": "4618-14ce-9e2a-22fb"
+      },
+      {
+        "import": true,
+        "name": " Supply Drop (Any UNSC) ",
+        "hidden": false,
+        "id": "70fb-331e-8348-ec65",
+        "type": "selectionEntry",
+        "targetId": "8ddd-f7de-687b-f50d"
+      },
+      {
+        "import": true,
+        "name": " Your Orders Have Changed (Must include Dare) ",
+        "hidden": false,
+        "id": "895c-508a-1813-18b2",
+        "type": "selectionEntry",
+        "targetId": "3345-743d-642e-730d"
+      },
+      {
+        "import": true,
+        "name": "Captain Veronica Dare",
+        "hidden": false,
+        "id": "1f17-a633-fe82-5c22",
+        "type": "selectionEntry",
+        "targetId": "a25c-10be-cfe1-5db1"
+      },
+      {
+        "import": true,
+        "name": "Gunnery Sergeant Buck",
+        "hidden": false,
+        "id": "0daf-c6e2-7598-5209",
+        "type": "selectionEntry",
+        "targetId": "4ec6-9ed0-f853-0ba4"
+      },
+      {
+        "import": true,
+        "name": "Master Chief",
+        "hidden": false,
+        "id": "54b7-10f8-9a1b-e40b",
+        "type": "selectionEntry",
+        "targetId": "2a69-d40f-95da-65e3"
+      },
+      {
+        "import": true,
+        "name": "ODST 2nd Lieutenant",
+        "hidden": false,
+        "id": "594a-ce49-d59a-baf3",
+        "type": "selectionEntry",
+        "targetId": "b78f-fb61-86ad-bab8"
+      },
+      {
+        "import": true,
+        "name": "ODST Air Assault 'Bullfrog' (M7S SMG)",
+        "hidden": false,
+        "id": "4d06-a5fb-1b8a-c7eb",
+        "type": "selectionEntry",
+        "targetId": "074e-5e46-e516-b697"
+      },
+      {
+        "import": true,
+        "name": "ODST Captain",
+        "hidden": false,
+        "id": "d400-3c0c-a3e0-2cf0",
+        "type": "selectionEntry",
+        "targetId": "e4b6-6c94-3b86-6729"
+      },
+      {
+        "import": true,
+        "name": "ODST Air Assault 'Bullfrog' (MA40 Assault Rifle)",
+        "hidden": false,
+        "id": "3eac-b3d4-3cbe-8a5f",
+        "type": "selectionEntry",
+        "targetId": "bc13-cdf0-44ee-f266"
+      },
+      {
+        "import": true,
+        "name": "Spartan Brawler (CQS48 Bulldog)",
+        "hidden": false,
+        "id": "aef0-c63a-72ac-f99d",
+        "type": "selectionEntry",
+        "targetId": "7ac5-ed0b-9056-b321"
+      },
+      {
+        "import": true,
+        "name": "ODST Firebreak (M90 Shotgun)",
+        "hidden": false,
+        "id": "816d-12c3-eee8-ad20",
+        "type": "selectionEntry",
+        "targetId": "06f3-4b28-2fdf-92ca"
+      },
+      {
+        "import": true,
+        "name": "ODST Special Purpose Trooper (BR55 Battle Rifle)",
+        "hidden": false,
+        "id": "17aa-7c09-6889-bb45",
+        "type": "selectionEntry",
+        "targetId": "fc4a-4438-3830-d0aa"
+      },
+      {
+        "import": true,
+        "name": "ODST Firebreak (M7057 Flamethrower)",
+        "hidden": false,
+        "id": "7c84-c3c3-2c7e-623f",
+        "type": "selectionEntry",
+        "targetId": "df23-892c-ec35-f21d"
+      },
+      {
+        "import": true,
+        "name": "ODST Special Purpose Trooper (M392 DMR)",
+        "hidden": false,
+        "id": "f0d1-c17d-7146-5100",
+        "type": "selectionEntry",
+        "targetId": "f9c7-b65b-997c-de9c"
+      },
+      {
+        "import": true,
+        "name": "Spartan Deadeye (M392 DMR)",
+        "hidden": false,
+        "id": "c4ed-2aaf-2afb-26ba",
+        "type": "selectionEntry",
+        "targetId": "6780-087e-077e-95a8"
+      },
+      {
+        "import": true,
+        "name": "Spartan HAZOP (M45 Shotgun)",
+        "hidden": false,
+        "id": "8517-7910-0e34-614c",
+        "type": "selectionEntry",
+        "targetId": "ecb7-b371-9762-4de8"
+      },
+      {
+        "import": true,
+        "name": "Spartan Deadeye (Stalker Rifle)",
+        "hidden": false,
+        "id": "3873-8631-5052-ec31",
+        "type": "selectionEntry",
+        "targetId": "1db1-95df-9d00-c3e4"
+      },
+      {
+        "import": true,
+        "name": "Spartan Brawler (Needler)",
+        "hidden": false,
+        "id": "5545-307f-1f39-8f56",
+        "type": "selectionEntry",
+        "targetId": "720d-0c1b-186e-29bb"
+      },
+      {
+        "import": true,
+        "name": "Spartan CQB (Gravity Hammer)",
+        "hidden": false,
+        "id": "0575-b556-16c2-1df9",
+        "type": "selectionEntry",
+        "targetId": "9ff5-6361-3b46-4c84"
+      },
+      {
+        "import": true,
+        "name": "Spartan CQB (Energy Sword)",
+        "hidden": false,
+        "id": "e815-66d8-d3c7-630c",
+        "type": "selectionEntry",
+        "targetId": "5248-5d06-6567-54e0"
+      },
+      {
+        "import": true,
+        "name": "Spartan Zvezda (VK78 Commando)",
+        "hidden": false,
+        "id": "1929-2a56-eea1-5303",
+        "type": "selectionEntry",
+        "targetId": "1981-2457-9b52-2579"
+      },
+      {
+        "import": true,
+        "name": "Spartan MK VII (MA40 Assault Rifle)",
+        "hidden": false,
+        "id": "c7df-2c0c-f429-7e3a",
+        "type": "selectionEntry",
+        "targetId": "13ad-efb3-b0de-27d6"
+      },
+      {
+        "import": true,
+        "name": "Spartan HAZOP (Spike Rifle)",
+        "hidden": false,
+        "id": "7836-6642-3ebe-dfa7",
+        "type": "selectionEntry",
+        "targetId": "8366-1617-d5c5-0935"
+      },
+      {
+        "import": true,
+        "name": "Spartan Gungnir (M319 Grenade Launcher)",
+        "hidden": false,
+        "id": "736d-3143-a893-1576",
+        "type": "selectionEntry",
+        "targetId": "d288-d893-3e73-9179"
+      },
+      {
+        "import": true,
+        "name": "Spartan Gungnir (Plasma Launcher)",
+        "hidden": false,
+        "id": "53eb-14be-ec79-5c53",
+        "type": "selectionEntry",
+        "targetId": "0a2d-2b35-a9e7-c356"
+      },
+      {
+        "import": true,
+        "name": "Spartan JFO (Concussion Rifle)",
+        "hidden": false,
+        "id": "02c1-1fd5-fb48-7e0d",
+        "type": "selectionEntry",
+        "targetId": "1403-124f-6586-cbc3"
+      },
+      {
+        "import": true,
+        "name": "Spartan JFO (H-165 Target Locator)",
+        "hidden": false,
+        "id": "a309-5ebb-0878-4716",
+        "type": "selectionEntry",
+        "targetId": "1787-c875-5664-b8f0"
+      },
+      {
+        "import": true,
+        "name": "Spartan MK VII (Pulse Carbine)",
+        "hidden": false,
+        "id": "f8f0-b478-ec8d-74f4",
+        "type": "selectionEntry",
+        "targetId": "d444-ab79-454b-0efc"
+      },
+      {
+        "import": true,
+        "name": "Spartan Zvezda (Cindershot)",
+        "hidden": false,
+        "id": "2306-e1f8-ce05-324c",
+        "type": "selectionEntry",
+        "targetId": "2787-f067-da88-0683"
+      }
+    ],
+    "library": false,
+    "id": "bc83-c89c-1cbc-74fc",
+    "name": "UNSC",
+    "gameSystemId": "sys-d6f4-c22a-702c-7c63",
+    "gameSystemRevision": 1,
+    "revision": 2,
+    "battleScribeVersion": 2.03,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema"
+  }
+}
