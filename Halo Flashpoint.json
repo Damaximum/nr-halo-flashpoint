@@ -4779,6 +4779,26 @@
           {
             "name": "RA",
             "id": "4747-578e-a60c-c966"
+          },
+          {
+            "name": "FI",
+            "id": "e784-93c1-89a6-196b"
+          },
+          {
+            "name": "SV",
+            "id": "4f8c-e1fd-e00d-bdc3"
+          },
+          {
+            "name": "Move",
+            "id": "09ab-0636-f255-8bee"
+          },
+          {
+            "name": "Armour",
+            "id": "f0b8-89ad-6be4-e326"
+          },
+          {
+            "name": "HP",
+            "id": "061b-48d3-20dd-d9f5"
           }
         ]
       },
