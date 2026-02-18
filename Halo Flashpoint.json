@@ -4759,11 +4759,11 @@
             "id": "44a3-69cf-7d55-3bd6"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "id": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "id": "da67-cd18-63a3-a31f"
           },
           {
@@ -4773,6 +4773,12 @@
           {
             "name": "Keywords",
             "id": "9471-bf5b-3f44-b4b4"
+          }
+        ],
+        "attributeTypes": [
+          {
+            "name": "RA",
+            "id": "4747-578e-a60c-c966"
           }
         ]
       },

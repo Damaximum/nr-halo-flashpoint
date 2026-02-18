@@ -2292,12 +2292,12 @@
             "$text": "4+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
           },
@@ -2310,6 +2310,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (2), Fearless, Imposing, Tactician (2), Unstoppable"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2336,12 +2343,12 @@
             "$text": "4+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "2-3"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
           },
@@ -2354,6 +2361,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (3), Evade"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2380,12 +2394,12 @@
             "$text": "6+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-3"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
           },
@@ -2398,6 +2412,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Imposing"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2424,12 +2445,12 @@
             "$text": "5+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-3"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "2"
           },
@@ -2442,6 +2463,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (2), Imposing, Jump Pack, Tactician (1)"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2468,12 +2496,12 @@
             "$text": "5+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "-"
           },
@@ -2486,6 +2514,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (2), Imposing"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2512,12 +2547,12 @@
             "$text": "5+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
           },
@@ -2530,6 +2565,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Imposing"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2556,12 +2598,12 @@
             "$text": "5+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
           },
@@ -2574,6 +2616,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (1), Guarded, Imposing, Tactician (1)"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       },
@@ -2600,12 +2649,12 @@
             "$text": "6+"
           },
           {
-            "name": "SP",
+            "name": "Move",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-3"
           },
           {
-            "name": "AR",
+            "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
           },
@@ -2618,6 +2667,13 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (1), Imposing"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "RA",
+            "typeId": "4747-578e-a60c-c966",
+            "$text": ""
           }
         ]
       }
