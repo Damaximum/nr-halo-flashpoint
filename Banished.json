@@ -93,7 +93,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Sanheili Fists",
+        "name": " Sanheili Fists",
         "hidden": false,
         "id": "949b-8de4-fbd6-d4a6",
         "infoGroups": [
@@ -103,7 +103,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Smash (n)",
+                "name": "Smash",
                 "id": "cc1f-bcc8-59e7-38cf",
                 "hidden": false,
                 "type": "rule",
@@ -221,7 +221,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "47a3-17fd-511c-2ad4",
                 "hidden": false,
                 "type": "rule",
@@ -277,7 +277,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Smash (n)",
+                "name": "Smash",
                 "id": "fcbf-a684-3d80-539a",
                 "hidden": false,
                 "type": "rule",
@@ -352,7 +352,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8a6e-142e-d30b-2549",
                 "hidden": false,
                 "type": "rule",
@@ -397,7 +397,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "10eb-db73-74ab-a619",
                     "hidden": false,
                     "type": "rule",
@@ -458,7 +458,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "73f8-1f22-f33a-5713",
                     "hidden": false,
                     "type": "rule",
@@ -472,14 +472,14 @@
                     "targetId": "99d3-7a0f-1302-39cc"
                   },
                   {
-                    "name": "Smash (n)",
+                    "name": "Smash",
                     "id": "5c01-bd89-f3c9-eff3",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "e0eb-47f2-7bcc-d042"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "0683-6b45-67f6-46e2",
                     "hidden": false,
                     "type": "rule",
@@ -530,7 +530,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "e954-7de4-c8f7-7725",
                 "hidden": false,
                 "type": "rule",
@@ -551,7 +551,7 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Tactician (n)",
+                "name": "Tactician",
                 "id": "59c2-5564-6a99-cc73",
                 "hidden": false,
                 "type": "rule",
@@ -766,7 +766,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "a28d-c8e4-f438-3595",
                 "hidden": false,
                 "type": "rule",
@@ -881,7 +881,7 @@
                 "targetId": "9c4b-cf16-5095-1900"
               },
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "d50f-c49d-baec-5662",
                 "hidden": false,
                 "type": "rule",
@@ -997,7 +997,7 @@
                 "targetId": "9c4b-cf16-5095-1900"
               },
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "5a85-9e29-c738-4d3b",
                 "hidden": false,
                 "type": "rule",
@@ -1113,7 +1113,7 @@
                 "targetId": "9c4b-cf16-5095-1900"
               },
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "6a75-aeb2-ae67-269e",
                 "hidden": false,
                 "type": "rule",
@@ -1222,7 +1222,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "76c9-17c7-5d4e-4754",
                 "hidden": false,
                 "type": "rule",
@@ -1454,7 +1454,7 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "41dc-fe9b-8160-3545",
                 "hidden": false,
                 "type": "rule",
@@ -1468,7 +1468,7 @@
                 "targetId": "d61b-fa4c-fa16-40d7"
               },
               {
-                "name": "Tactician (n)",
+                "name": "Tactician",
                 "id": "e580-85f4-668c-433e",
                 "hidden": false,
                 "type": "rule",
@@ -1577,7 +1577,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "ccfd-786c-7fe4-02e5",
                 "hidden": false,
                 "type": "rule",
@@ -1693,7 +1693,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "2c90-94ee-2c85-ba07",
                 "hidden": false,
                 "type": "rule",
@@ -1808,14 +1808,14 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "fcc7-ce48-39eb-85e0",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "4681-64c1-c51a-affe"
               },
               {
-                "name": "Tactician (n)",
+                "name": "Tactician",
                 "id": "0af5-77b6-3e8b-e7ec",
                 "hidden": false,
                 "type": "rule",
@@ -1923,7 +1923,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield (n)",
+                "name": "Energy Shield",
                 "id": "962b-0b57-a84c-d1c7",
                 "hidden": false,
                 "type": "rule",
@@ -1937,7 +1937,7 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Tactician (n)",
+                "name": "Tactician",
                 "id": "9a21-e3c9-5187-7463",
                 "hidden": false,
                 "type": "rule",
