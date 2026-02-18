@@ -2311,43 +2311,6 @@
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (2), Fearless, Imposing, Tactician (2), Unstoppable"
           }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
         ]
       },
       {
@@ -2391,43 +2354,6 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (3), Evade"
-          }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
           }
         ]
       },
@@ -2473,43 +2399,6 @@
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Imposing"
           }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
         ]
       },
       {
@@ -2553,43 +2442,6 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (2), Imposing, Jump Pack, Tactician (1)"
-          }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
           }
         ]
       },
@@ -2635,43 +2487,6 @@
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (2), Imposing"
           }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
         ]
       },
       {
@@ -2715,43 +2530,6 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Imposing"
-          }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
           }
         ]
       },
@@ -2797,43 +2575,6 @@
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (1), Guarded, Imposing, Tactician (1)"
           }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
         ]
       },
       {
@@ -2877,43 +2618,6 @@
             "name": "Keywords",
             "typeId": "9471-bf5b-3f44-b4b4",
             "$text": "Energy Shield (1), Imposing"
-          }
-        ],
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
           }
         ]
       }

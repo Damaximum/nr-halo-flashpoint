@@ -4774,7 +4774,23 @@
             "name": "Keywords",
             "id": "9471-bf5b-3f44-b4b4"
           }
-        ],
+        ]
+      },
+      {
+        "name": "Special Order",
+        "id": "ac8a-0e00-7741-c9d7",
+        "hidden": false,
+        "characteristicTypes": [
+          {
+            "name": "Details",
+            "id": "32dd-8921-9c78-cd41"
+          }
+        ]
+      },
+      {
+        "name": "Model Profile Test",
+        "id": "7eb4-433e-296d-4853",
+        "hidden": false,
         "attributeTypes": [
           {
             "name": "RA",
@@ -4800,16 +4816,11 @@
             "name": "HP",
             "id": "061b-48d3-20dd-d9f5"
           }
-        ]
-      },
-      {
-        "name": "Special Order",
-        "id": "ac8a-0e00-7741-c9d7",
-        "hidden": false,
+        ],
         "characteristicTypes": [
           {
-            "name": "Details",
-            "id": "32dd-8921-9c78-cd41"
+            "name": "Keywords",
+            "id": "c5d2-6862-08f1-0bcf"
           }
         ]
       }

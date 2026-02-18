@@ -3790,78 +3790,46 @@
       {
         "characteristics": [
           {
-            "$text": "3+",
             "name": "RA",
-            "typeId": "1cbd-dd42-cb42-70cc"
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "3+"
           },
           {
-            "$text": "3+",
             "name": "FI",
-            "typeId": "945b-dfd9-0b36-b383"
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "3+"
           },
           {
-            "$text": "3+",
             "name": "SV",
-            "typeId": "44a3-69cf-7d55-3bd6"
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "3+"
           },
           {
-            "$text": "2-3",
             "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "2-3"
           },
           {
-            "$text": "2",
             "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "2"
           },
           {
-            "$text": "5",
             "name": "HP",
-            "typeId": "59e3-11bd-4376-aa67"
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "5"
           },
           {
-            "$text": "Energy shield (3), Stoic, Tactician (3)",
             "name": "Keywords",
-            "typeId": "9471-bf5b-3f44-b4b4"
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy shield (3), Stoic, Tactician (3)"
           }
         ],
         "name": "Master Chief",
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "4570-2170-84ec-3be1",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": "3+"
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": "3+"
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": "3+"
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": "2-3"
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": "2"
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": "5"
-          }
-        ]
+        "id": "4570-2170-84ec-3be1"
       },
       {
         "characteristics": [
@@ -3905,44 +3873,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "a731-0dca-6ed8-5c05",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "a731-0dca-6ed8-5c05"
       },
       {
         "characteristics": [
@@ -3986,44 +3917,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "edca-b7e7-d466-bb20",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "edca-b7e7-d466-bb20"
       },
       {
         "characteristics": [
@@ -4067,44 +3961,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "911f-9539-db8b-979e",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "911f-9539-db8b-979e"
       },
       {
         "characteristics": [
@@ -4148,44 +4005,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "e571-627e-e5e1-adb5",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "e571-627e-e5e1-adb5"
       },
       {
         "characteristics": [
@@ -4229,44 +4049,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "3af4-7129-665c-171e",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "3af4-7129-665c-171e"
       },
       {
         "characteristics": [
@@ -4310,44 +4093,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "d437-b140-717a-5d5b",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "d437-b140-717a-5d5b"
       },
       {
         "characteristics": [
@@ -4391,44 +4137,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "440f-6936-6fcc-8a10",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "440f-6936-6fcc-8a10"
       },
       {
         "characteristics": [
@@ -4472,44 +4181,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "5809-5e6e-7939-9824",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "5809-5e6e-7939-9824"
       },
       {
         "characteristics": [
@@ -4553,44 +4225,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "0295-3874-17ab-5a1c",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "0295-3874-17ab-5a1c"
       },
       {
         "characteristics": [
@@ -4634,44 +4269,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "01fd-debc-e9b0-c594",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "01fd-debc-e9b0-c594"
       },
       {
         "characteristics": [
@@ -4715,44 +4313,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "36cb-57d8-63fc-b64e",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "36cb-57d8-63fc-b64e"
       },
       {
         "characteristics": [
@@ -4796,44 +4357,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "64cd-0475-a1a4-99dc",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "64cd-0475-a1a4-99dc"
       },
       {
         "characteristics": [
@@ -4877,44 +4401,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "9ac4-9b6b-90e2-04df",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "9ac4-9b6b-90e2-04df"
       },
       {
         "characteristics": [
@@ -4958,44 +4445,7 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "3833-4320-2c3e-b05f",
-        "attributes": [
-          {
-            "name": "RA",
-            "typeId": "4747-578e-a60c-c966",
-            "$text": ""
-          },
-          {
-            "name": "FI",
-            "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
-          },
-          {
-            "name": "SV",
-            "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
-          },
-          {
-            "name": "Move",
-            "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
-          },
-          {
-            "name": "Armour",
-            "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
-          },
-          {
-            "name": "HP",
-            "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
-          }
-        ]
+        "id": "3833-4320-2c3e-b05f"
       },
       {
         "characteristics": [
@@ -5039,42 +4489,51 @@
         "typeId": "adec-6a97-8887-db81",
         "typeName": "Model Profile",
         "hidden": false,
-        "id": "ec59-b6c3-00fd-16c7",
+        "id": "ec59-b6c3-00fd-16c7"
+      },
+      {
+        "name": "Master Chief Test",
+        "typeId": "7eb4-433e-296d-4853",
+        "typeName": "Model Profile Test",
+        "hidden": false,
+        "id": "66bc-755f-6098-8ab2",
+        "characteristics": [
+          {
+            "name": "Keywords",
+            "typeId": "c5d2-6862-08f1-0bcf",
+            "$text": "Energy shield (3), Stoic, Tactician (3)"
+          }
+        ],
         "attributes": [
           {
             "name": "RA",
             "typeId": "4747-578e-a60c-c966",
-            "$text": ""
+            "$text": "3+"
           },
           {
             "name": "FI",
             "typeId": "e784-93c1-89a6-196b",
-            "$text": ""
+            "$text": "3+"
           },
           {
             "name": "SV",
             "typeId": "4f8c-e1fd-e00d-bdc3",
-            "$text": ""
+            "$text": "3+"
           },
           {
             "name": "Move",
             "typeId": "09ab-0636-f255-8bee",
-            "$text": ""
+            "$text": "2-3"
           },
           {
             "name": "Armour",
             "typeId": "f0b8-89ad-6be4-e326",
-            "$text": ""
+            "$text": "2"
           },
           {
             "name": "HP",
             "typeId": "061b-48d3-20dd-d9f5",
-            "$text": ""
-          },
-          {
-            "name": "New Attribute Type",
-            "typeId": "a9db-a5ac-73c3-bfb7",
-            "$text": ""
+            "$text": "5"
           }
         ]
       }
