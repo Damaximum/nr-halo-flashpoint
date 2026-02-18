@@ -1332,7 +1332,7 @@
             "hidden": false,
             "id": "49e7-1d67-70ba-f957",
             "type": "selectionEntry",
-            "targetId": "a3fa-4430-4042-b376"
+            "targetId": "73de-71ba-2ab1-99cc"
           }
         ],
         "infoLinks": [
@@ -4406,39 +4406,39 @@
       {
         "characteristics": [
           {
-            "$text": "4+",
             "name": "RA",
-            "typeId": "1cbd-dd42-cb42-70cc"
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "4+"
           },
           {
-            "$text": "4+",
             "name": "FI",
-            "typeId": "945b-dfd9-0b36-b383"
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
           },
           {
-            "$text": "5+",
             "name": "SV",
-            "typeId": "44a3-69cf-7d55-3bd6"
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
           },
           {
-            "$text": "2",
             "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "2"
           },
           {
-            "$text": "2-3",
             "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "2-3"
           },
           {
-            "$text": "4",
             "name": "HP",
-            "typeId": "59e3-11bd-4376-aa67"
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "4"
           },
           {
-            "$text": "Energy Shield (2), Tactician (!)",
             "name": "Keywords",
-            "typeId": "9471-bf5b-3f44-b4b4"
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Energy Shield (2), Tactician (1)"
           }
         ],
         "name": "Spartan MK VII",

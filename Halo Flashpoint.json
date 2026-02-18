@@ -1735,14 +1735,14 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "M319 Grenade Launcher (Default)",
+        "name": "M319 Grenade Launcher",
         "hidden": false,
         "id": "a3fa-4430-4042-b376",
         "costs": [
           {
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
-            "value": 0
+            "value": 10
           }
         ],
         "constraints": [
@@ -3143,14 +3143,14 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "M319 Grenade Launcher",
+        "name": "M319 Grenade Launcher (Default)",
         "hidden": false,
         "id": "73de-71ba-2ab1-99cc",
         "costs": [
           {
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
-            "value": 10
+            "value": 0
           }
         ],
         "constraints": [
@@ -4761,12 +4761,12 @@
             "id": "44a3-69cf-7d55-3bd6"
           },
           {
-            "name": "Armour",
-            "id": "da67-cd18-63a3-a31f"
-          },
-          {
             "name": "Move",
             "id": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "name": "Armour",
+            "id": "da67-cd18-63a3-a31f"
           },
           {
             "name": "HP",

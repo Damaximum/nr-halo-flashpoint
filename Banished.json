@@ -1712,11 +1712,11 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Skewer",
+            "name": "Skewer (Default)",
             "hidden": false,
             "id": "5daf-8ca0-b15e-f5c5",
             "type": "selectionEntry",
-            "targetId": "d95a-cd9e-fbb6-d597"
+            "targetId": "351d-c16e-26ae-a8a4"
           },
           {
             "import": true,
