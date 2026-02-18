@@ -146,7 +146,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Energy Shield Barrier (n)",
+                "name": "Energy Shield Barrier",
                 "id": "789c-ec15-d52a-e90d",
                 "hidden": false,
                 "type": "rule",
@@ -290,7 +290,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "2f0e-b448-f5c6-b13c",
                 "hidden": false,
                 "type": "rule",
@@ -882,7 +882,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "74cf-0477-c276-dc70",
                 "hidden": false,
                 "type": "rule",
@@ -926,7 +926,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "27b7-96dc-b010-2587",
                 "hidden": false,
                 "type": "rule",
@@ -947,7 +947,7 @@
                 "targetId": "11ce-920b-2a5e-68a0"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "b529-5cc8-0b14-8bfa",
                 "hidden": false,
                 "type": "rule",
@@ -1043,7 +1043,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Implosion (n)",
+                "name": "Implosion",
                 "id": "83d5-f90c-b461-f424",
                 "hidden": false,
                 "type": "rule",
@@ -1114,7 +1114,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "8e72-9921-69cb-26d0",
                 "hidden": false,
                 "type": "rule",
@@ -1198,7 +1198,7 @@
                 "targetId": "9b8d-c2ae-11a9-f068"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "ea74-c7ed-962f-b9d1",
                 "hidden": false,
                 "type": "rule",
@@ -4067,7 +4067,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Implosion (n)",
+                "name": "Implosion",
                 "id": "31b7-7e09-6667-2a58",
                 "hidden": false,
                 "type": "rule",
@@ -4156,7 +4156,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "4ec3-1f03-557c-5e28",
                 "hidden": false,
                 "type": "rule",
@@ -4462,7 +4462,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "a09e-88a8-3c4a-ea7c",
                 "hidden": false,
                 "type": "rule",
@@ -4483,7 +4483,7 @@
                 "targetId": "11ce-920b-2a5e-68a0"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8971-834a-adf4-aab2",
                 "hidden": false,
                 "type": "rule",
@@ -4617,7 +4617,7 @@
                 "targetId": "9b8d-c2ae-11a9-f068"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "2341-c720-91f0-dadf",
                 "hidden": false,
                 "type": "rule",
@@ -4759,11 +4759,11 @@
             "id": "44a3-69cf-7d55-3bd6"
           },
           {
-            "name": "Move",
+            "name": "SP",
             "id": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "name": "Armour",
+            "name": "AR",
             "id": "da67-cd18-63a3-a31f"
           },
           {
@@ -5165,7 +5165,7 @@
                 "targetId": "9861-e0c7-0b2f-fd32"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "c21d-a156-332d-1aee",
                 "hidden": false,
                 "type": "rule",
@@ -5227,7 +5227,7 @@
                 "targetId": "6bcd-5ce1-278d-6996"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "f99d-6bb4-3cdb-c065",
                 "hidden": false,
                 "type": "rule",
@@ -5280,14 +5280,14 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "de1b-a144-4717-2cf9",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "751d-9206-f5e0-03b3"
                   },
                   {
-                    "name": "Smash (n)",
+                    "name": "Smash",
                     "id": "7be4-14ca-bc25-5cff",
                     "hidden": false,
                     "type": "rule",
@@ -5341,14 +5341,14 @@
                     "targetId": "1247-2180-b73a-b6af"
                   },
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "5c3c-2eec-cbf7-97df",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "9085-340f-339c-693b"
                   },
                   {
-                    "name": "Frag (n)",
+                    "name": "Frag",
                     "id": "4c07-d8b0-092d-0148",
                     "hidden": false,
                     "type": "rule",
@@ -5405,7 +5405,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "9077-34df-39aa-9b6c",
                 "hidden": false,
                 "type": "rule",
@@ -5419,14 +5419,14 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Implosion (n)",
+                "name": "Implosion",
                 "id": "4256-119e-0cc1-9681",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "7f9a-fa85-e802-e00e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "fddb-eca6-71c4-d4e8",
                 "hidden": false,
                 "type": "rule",
@@ -5455,14 +5455,14 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "d754-49b9-1e56-4011",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "b738-e896-417f-7cc8",
                 "hidden": false,
                 "type": "rule",
@@ -5550,7 +5550,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "58b2-c0e9-d792-3757",
                 "hidden": false,
                 "type": "rule",
@@ -5586,7 +5586,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "c26d-1a0a-1831-fca3",
                 "hidden": false,
                 "type": "rule",
@@ -5660,7 +5660,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "372a-ba85-4ff2-83aa",
                 "hidden": false,
                 "type": "rule",
@@ -5694,14 +5694,14 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "be35-d340-87e1-512b",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "9085-340f-339c-693b"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "e379-724a-bffd-2132",
                     "hidden": false,
                     "type": "rule",
@@ -5748,7 +5748,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "09f0-a060-91bc-de99",
                     "hidden": false,
                     "type": "rule",
@@ -5812,7 +5812,7 @@
                 "targetId": "0774-c86f-bf7a-4c11"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "190e-7eab-5a6d-433d",
                 "hidden": false,
                 "type": "rule",
@@ -5826,7 +5826,7 @@
                 "targetId": "6557-83a3-62a5-dbce"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "dd4b-5fc4-7304-ac94",
                 "hidden": false,
                 "type": "rule",
@@ -5888,7 +5888,7 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "979c-45ba-5ff1-b5cc",
                 "hidden": false,
                 "type": "rule",
@@ -5902,14 +5902,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "f907-ccf3-3005-fcd4",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9ca9-df34-4859-664e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8de9-a287-bf3e-73de",
                 "hidden": false,
                 "type": "rule",
@@ -5962,7 +5962,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "59c9-9c35-4df1-4de5",
                     "hidden": false,
                     "type": "rule",
@@ -5976,14 +5976,14 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "0869-5de0-ff1d-b60d",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "751d-9206-f5e0-03b3"
                   },
                   {
-                    "name": "Smash (n)",
+                    "name": "Smash",
                     "id": "de13-ad43-5146-8e17",
                     "hidden": false,
                     "type": "rule",
@@ -6037,7 +6037,7 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "90f3-af80-668a-e564",
                     "hidden": false,
                     "type": "rule",
@@ -6108,14 +6108,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "7597-b3e4-ca01-08b0",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "751d-9206-f5e0-03b3"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "743c-5512-b971-1457",
                 "hidden": false,
                 "type": "rule",
@@ -6177,14 +6177,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "84f5-7cff-fc1e-d64c",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "c785-bc3f-5fd5-2850",
                 "hidden": false,
                 "type": "rule",
@@ -6251,7 +6251,7 @@
                     "targetId": "9b8d-c2ae-11a9-f068"
                   },
                   {
-                    "name": "Frag (n)",
+                    "name": "Frag",
                     "id": "bf92-9f26-3661-a008",
                     "hidden": false,
                     "type": "rule",
@@ -6305,7 +6305,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Frag (n)",
+                    "name": "Frag",
                     "id": "6208-20a7-3b98-34b2",
                     "hidden": false,
                     "type": "rule",
@@ -6362,7 +6362,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "a9fb-06f7-f1c2-7032",
                 "hidden": false,
                 "type": "rule",
@@ -6424,7 +6424,7 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "4abe-8cac-a341-cc48",
                 "hidden": false,
                 "type": "rule",
@@ -6438,14 +6438,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "9219-2fdb-f47f-61cb",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9ca9-df34-4859-664e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "b047-1628-aad6-564b",
                 "hidden": false,
                 "type": "rule",
@@ -6500,14 +6500,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "2ac3-89c8-8103-e336",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "a1d0-0997-114a-70a3",
                 "hidden": false,
                 "type": "rule",
@@ -6562,7 +6562,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "46b9-c079-b820-3bed",
                 "hidden": false,
                 "type": "rule",
@@ -6583,7 +6583,7 @@
                 "targetId": "9861-e0c7-0b2f-fd32"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "e4b9-7551-60f6-a56e",
                 "hidden": false,
                 "type": "rule",
@@ -6810,7 +6810,7 @@
                 "targetId": "9861-e0c7-0b2f-fd32"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "b3d3-4248-18fe-946c",
                 "hidden": false,
                 "type": "rule",
@@ -6858,7 +6858,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "fcd6-876b-49e8-8610",
                 "hidden": false,
                 "type": "rule",
@@ -6872,7 +6872,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "a1d4-3556-d7bf-0eae",
                 "hidden": false,
                 "type": "rule",
@@ -6927,7 +6927,7 @@
                 "targetId": "6bcd-5ce1-278d-6996"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "cc54-505c-ec77-7602",
                 "hidden": false,
                 "type": "rule",
@@ -6975,7 +6975,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "3be6-bcf7-3904-5b23",
                 "hidden": false,
                 "type": "rule",
@@ -7023,7 +7023,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "3e25-c84a-ed6b-8085",
                 "hidden": false,
                 "type": "rule",
@@ -7037,14 +7037,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "cc24-bcc2-c73f-d659",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9ca9-df34-4859-664e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "ee8e-55bf-33a0-f3ba",
                 "hidden": false,
                 "type": "rule",
@@ -7144,7 +7144,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "2001-9483-7894-627d",
                     "hidden": false,
                     "type": "rule",
@@ -7199,7 +7199,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "9685-46d1-db6d-e896",
                     "hidden": false,
                     "type": "rule",
@@ -7213,7 +7213,7 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "ed22-9660-efd3-c3a5",
                     "hidden": false,
                     "type": "rule",
@@ -7301,7 +7301,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "b3b9-5ef0-5552-393a",
                 "hidden": false,
                 "type": "rule",
@@ -7363,7 +7363,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "9220-3704-fb49-2999",
                 "hidden": false,
                 "type": "rule",
@@ -7377,7 +7377,7 @@
                 "targetId": "6bcd-5ce1-278d-6996"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "7d2e-eb3e-7d0b-7f9b",
                 "hidden": false,
                 "type": "rule",
@@ -7425,7 +7425,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "2bbc-df5b-24e2-a58e",
                 "hidden": false,
                 "type": "rule",
@@ -7439,7 +7439,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "3434-9afd-5fdc-18da",
                 "hidden": false,
                 "type": "rule",
@@ -7494,14 +7494,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "e96a-8e58-a6e1-c754",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "12e9-fe40-32ec-72cc",
                 "hidden": false,
                 "type": "rule",
@@ -7556,7 +7556,7 @@
                 "targetId": "0774-c86f-bf7a-4c11"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "5bb5-6471-70e2-39a1",
                 "hidden": false,
                 "type": "rule",
@@ -7611,14 +7611,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "b6a3-1596-3696-fee5",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "e8af-8611-f3d5-4e7a",
                 "hidden": false,
                 "type": "rule",
@@ -7718,7 +7718,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "8f79-dbfc-9e2d-225c",
                     "hidden": false,
                     "type": "rule",
@@ -7772,7 +7772,7 @@
                     "targetId": "1247-2180-b73a-b6af"
                   },
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "5334-e346-cd11-cb62",
                     "hidden": false,
                     "type": "rule",
@@ -7786,7 +7786,7 @@
                     "targetId": "e0a8-9e1d-ccc1-5f01"
                   },
                   {
-                    "name": "Implosion (n)",
+                    "name": "Implosion",
                     "id": "92f1-4195-96b2-4de0",
                     "hidden": false,
                     "type": "rule",
@@ -7843,14 +7843,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "453a-28cc-668a-3087",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "0bac-502e-36e2-c551",
                 "hidden": false,
                 "type": "rule",
@@ -7912,7 +7912,7 @@
                 "targetId": "0774-c86f-bf7a-4c11"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8807-598c-2371-dc13",
                 "hidden": false,
                 "type": "rule",
@@ -7967,7 +7967,7 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "6a47-7575-2091-85ec",
                 "hidden": false,
                 "type": "rule",
@@ -8043,7 +8043,7 @@
                 "targetId": "6557-83a3-62a5-dbce"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "7416-a55f-caa1-66cd",
                 "hidden": false,
                 "type": "rule",
@@ -8103,7 +8103,7 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Weight of Fire (n)",
+                    "name": "Weight of Fire",
                     "id": "fd01-9872-251d-8960",
                     "hidden": false,
                     "type": "rule",
@@ -8157,7 +8157,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "abab-a6e8-81f1-b4d9",
                     "hidden": false,
                     "type": "rule",

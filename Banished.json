@@ -2241,7 +2241,7 @@
           },
           {
             "import": true,
-            "name": "Sanheili Fists",
+            "name": " Sanheili Fists",
             "hidden": false,
             "id": "6fd0-7843-d06b-810c",
             "type": "selectionEntry",
@@ -2292,14 +2292,14 @@
             "$text": "4+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "1"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
             "name": "HP",
@@ -2336,14 +2336,14 @@
             "$text": "4+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "1"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "2-3"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
             "name": "HP",
@@ -2380,14 +2380,14 @@
             "$text": "6+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "1"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-3"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
             "name": "HP",
@@ -2424,14 +2424,14 @@
             "$text": "5+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "2"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-3"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "2"
           },
           {
             "name": "HP",
@@ -2468,14 +2468,14 @@
             "$text": "5+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "-"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "-"
           },
           {
             "name": "HP",
@@ -2512,14 +2512,14 @@
             "$text": "5+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "1"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
             "name": "HP",
@@ -2556,14 +2556,14 @@
             "$text": "5+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "1"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-2"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
             "name": "HP",
@@ -2600,14 +2600,14 @@
             "$text": "6+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "1"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "1-3"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
             "name": "HP",

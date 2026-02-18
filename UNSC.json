@@ -3805,14 +3805,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "5",
@@ -3849,14 +3849,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-2",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-2",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "3",
@@ -3893,14 +3893,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "1",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "1",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "1-2",
@@ -3937,14 +3937,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "1",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-2",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-2",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "1",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "3",
@@ -3981,14 +3981,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "1",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-2",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-2",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "1",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "3",
@@ -4025,14 +4025,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "1",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "1",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "1",
@@ -4069,14 +4069,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "1",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-2",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-2",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "1",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "3",
@@ -4113,14 +4113,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "4",
@@ -4157,14 +4157,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "1",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-2",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-2",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "1",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "3",
@@ -4201,14 +4201,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "3",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "3",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "5",
@@ -4245,14 +4245,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "4",
@@ -4289,14 +4289,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "4",
@@ -4333,14 +4333,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "4",
@@ -4377,14 +4377,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "2",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "1-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "1-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "2",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "4",
@@ -4421,14 +4421,14 @@
             "$text": "5+"
           },
           {
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f",
-            "$text": "2"
-          },
-          {
-            "name": "Move",
+            "name": "SP",
             "typeId": "8ba7-0d9a-5f8d-3610",
             "$text": "2-3"
+          },
+          {
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "2"
           },
           {
             "name": "HP",
@@ -4465,14 +4465,14 @@
             "typeId": "44a3-69cf-7d55-3bd6"
           },
           {
-            "$text": "3",
-            "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "$text": "2-3",
+            "name": "SP",
+            "typeId": "8ba7-0d9a-5f8d-3610"
           },
           {
-            "$text": "2-3",
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "$text": "3",
+            "name": "AR",
+            "typeId": "da67-cd18-63a3-a31f"
           },
           {
             "$text": "4",
@@ -4505,7 +4505,7 @@
           },
           {
             "import": true,
-            "name": "Spartan Fists",
+            "name": " Spartan Fists",
             "hidden": false,
             "id": "c60e-17f0-eee7-0468",
             "type": "selectionEntry",
@@ -4564,7 +4564,7 @@
           },
           {
             "import": true,
-            "name": "Fists",
+            "name": " Fists",
             "hidden": false,
             "id": "e04c-dbd2-c78c-7b98",
             "type": "selectionEntry",
