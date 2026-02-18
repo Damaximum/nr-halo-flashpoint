@@ -636,6 +636,20 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 86
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "a14f-c7a2-7e5e-543e",
+            "id": "fc84-9b9b-17e0-9fe8",
+            "primary": true,
+            "name": "Legends"
+          },
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "3634-4541-ffa3-e125",
+            "primary": false,
+            "name": "Jiralhanae"
+          }
         ]
       },
       {
@@ -728,6 +742,14 @@
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 32
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "48f3-7536-9ac6-9e40",
+            "primary": true,
+            "name": "Jiralhanae"
           }
         ]
       },
@@ -828,6 +850,14 @@
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 34
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "8301-9c11-fbda-fdcc",
+            "primary": true,
+            "name": "Jiralhanae"
           }
         ]
       },
@@ -937,6 +967,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 42
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "3403-736e-7b0c-588b",
+            "id": "9dc8-1bf3-0c27-ed88",
+            "primary": true,
+            "name": "Sangheili"
+          }
         ]
       },
       {
@@ -1044,6 +1082,14 @@
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 44
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "3403-736e-7b0c-588b",
+            "id": "1289-922b-28aa-04dc",
+            "primary": true,
+            "name": "Sangheili"
           }
         ]
       },
@@ -1153,6 +1199,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 40
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "3403-736e-7b0c-588b",
+            "id": "9576-7478-5611-21f7",
+            "primary": true,
+            "name": "Sangheili"
+          }
         ]
       },
       {
@@ -1261,6 +1315,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 47
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "3403-736e-7b0c-588b",
+            "id": "706f-20f2-b9b2-8bb6",
+            "primary": true,
+            "name": "Sangheili"
+          }
         ]
       },
       {
@@ -1361,6 +1423,14 @@
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 32
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "4e19-c906-12d7-6765",
+            "primary": true,
+            "name": "Jiralhanae"
           }
         ]
       },
@@ -1484,6 +1554,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 41
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "cb8a-38f8-8ad4-a8b7",
+            "primary": true,
+            "name": "Jiralhanae"
+          }
         ]
       },
       {
@@ -1592,6 +1670,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 35
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "5b66-f108-3de5-418f",
+            "primary": true,
+            "name": "Jiralhanae"
+          }
         ]
       },
       {
@@ -1691,6 +1777,14 @@
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 42
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "9c7b-ccc4-20c4-ac42",
+            "primary": true,
+            "name": "Jiralhanae"
           }
         ]
       },
@@ -1806,6 +1900,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 55
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "04cb-ea6c-7cb3-579a",
+            "primary": true,
+            "name": "Jiralhanae"
+          }
         ]
       },
       {
@@ -1912,6 +2014,14 @@
             "typeId": "e571-c9d9-345c-8ef2",
             "value": 56
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "0533-f9ac-5b03-11b2",
+            "id": "50e3-a3c6-3753-152e",
+            "primary": true,
+            "name": "Jiralhanae"
+          }
         ]
       },
       {
@@ -1953,6 +2063,14 @@
                 "$text": "An injured animal is often the most dangerous. Injured Jiralhanae will enter a berserk rampage when close to death in a last attempt to make one more kill.\n\n\nIf the active Jiralhanae unit has 2 or more wounds already, they can spend a Special Order result to add 1 to their Speed stat for a Sprint action made in activation.\n\n\nThis movement must be used to enter a cube with an enemy model. the Jiralhanae player may reroll 1 die during the resulting Fight test."
               }
             ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c51d-82ff-1907-ac1a",
+            "id": "ea75-167b-32d0-28b8",
+            "primary": true,
+            "name": "Banished Special Orders"
           }
         ]
       },
@@ -1996,6 +2114,14 @@
               }
             ]
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c51d-82ff-1907-ac1a",
+            "id": "f84c-831a-341b-f957",
+            "primary": true,
+            "name": "Banished Special Orders"
+          }
         ]
       },
       {
@@ -2038,6 +2164,14 @@
               }
             ]
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c51d-82ff-1907-ac1a",
+            "id": "c8b6-5b44-6045-cb97",
+            "primary": true,
+            "name": "Banished Special Orders"
+          }
         ]
       },
       {
@@ -2079,6 +2213,14 @@
                 "$text": "After an activation by either player, the Special Order command die result may be spent to remove the activation token from a friendly Sangheili Mercenary that is off the board (due to being killed but not yet respawned). This means the controlling player can and must take a turn to activate the model before the end fo the current round."
               }
             ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c51d-82ff-1907-ac1a",
+            "id": "fa28-9047-d973-ecea",
+            "primary": true,
+            "name": "Banished Special Orders"
           }
         ]
       }

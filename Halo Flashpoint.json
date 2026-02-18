@@ -3568,6 +3568,14 @@
             "includeChildSelections": true,
             "includeChildForces": true
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c928-e094-4703-7632",
+            "id": "0925-331d-e9d4-9e6b",
+            "primary": true,
+            "name": "Command Upgrades"
+          }
         ]
       },
       {
@@ -3593,6 +3601,14 @@
             "id": "70aa-6549-d3ba-27a6",
             "includeChildSelections": true,
             "includeChildForces": true
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c928-e094-4703-7632",
+            "id": "feaf-ff91-8aa4-a858",
+            "primary": true,
+            "name": "Command Upgrades"
           }
         ]
       },
@@ -3620,6 +3636,14 @@
             "includeChildSelections": true,
             "includeChildForces": true
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c928-e094-4703-7632",
+            "id": "17c0-a522-57c7-051b",
+            "primary": true,
+            "name": "Command Upgrades"
+          }
         ]
       },
       {
@@ -3645,6 +3669,14 @@
             "id": "dd53-9e86-ac13-ccf5",
             "includeChildSelections": true,
             "includeChildForces": true
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c928-e094-4703-7632",
+            "id": "d769-052f-da73-d4fd",
+            "primary": true,
+            "name": "Command Upgrades"
           }
         ]
       },
@@ -3672,6 +3704,14 @@
             "includeChildSelections": true,
             "includeChildForces": true
           }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c928-e094-4703-7632",
+            "id": "d140-d09b-29dd-ecc9",
+            "primary": true,
+            "name": "Command Upgrades"
+          }
         ]
       },
       {
@@ -3697,6 +3737,14 @@
             "id": "d36e-b71c-fa6a-0e8d",
             "includeChildSelections": true,
             "includeChildForces": true
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "c928-e094-4703-7632",
+            "id": "f410-f252-9717-afa3",
+            "primary": true,
+            "name": "Command Upgrades"
           }
         ]
       },

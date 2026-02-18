@@ -418,7 +418,21 @@
         "import": true,
         "name": "Master Chief",
         "hidden": false,
-        "id": "2a69-d40f-95da-65e3"
+        "id": "2a69-d40f-95da-65e3",
+        "categoryLinks": [
+          {
+            "targetId": "e1e7-5dd4-de4e-7d50",
+            "id": "88cc-cad9-f11e-803f",
+            "primary": true,
+            "name": "Legends"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "96bb-465c-a0fd-b767",
+            "primary": false,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -518,7 +532,15 @@
         "import": true,
         "name": "Captain Veronica Dare",
         "hidden": false,
-        "id": "a25c-10be-cfe1-5db1"
+        "id": "a25c-10be-cfe1-5db1",
+        "categoryLinks": [
+          {
+            "targetId": "e1e7-5dd4-de4e-7d50",
+            "id": "e9cc-974f-58c2-248f",
+            "primary": true,
+            "name": "Legends"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -633,7 +655,21 @@
         "import": true,
         "name": "Gunnery Sergeant Buck",
         "hidden": false,
-        "id": "4ec6-9ed0-f853-0ba4"
+        "id": "4ec6-9ed0-f853-0ba4",
+        "categoryLinks": [
+          {
+            "targetId": "e1e7-5dd4-de4e-7d50",
+            "id": "b5ed-d474-e98f-9ddd",
+            "primary": true,
+            "name": "Legends"
+          },
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "fea1-2776-3c9e-c2f1",
+            "primary": false,
+            "name": "ODST"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -733,7 +769,21 @@
         "import": true,
         "name": "ODST 2nd Lieutenant",
         "hidden": false,
-        "id": "b78f-fb61-86ad-bab8"
+        "id": "b78f-fb61-86ad-bab8",
+        "categoryLinks": [
+          {
+            "targetId": "5b8f-ebdf-22be-b6dd",
+            "id": "0985-21c0-80c6-701b",
+            "primary": false,
+            "name": "ODST 2nd Lieutenant"
+          },
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "1ba5-894b-f86f-e8a1",
+            "primary": true,
+            "name": "ODST"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -833,7 +883,21 @@
         "import": true,
         "name": "Spartan CQB (Energy Sword)",
         "hidden": false,
-        "id": "5248-5d06-6567-54e0"
+        "id": "5248-5d06-6567-54e0",
+        "categoryLinks": [
+          {
+            "targetId": "3686-00ec-4308-7872",
+            "id": "ce2d-251e-6471-263a",
+            "primary": false,
+            "name": "Spartan CQB"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "201e-aa52-6f9c-c7f4",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -933,7 +997,21 @@
         "import": true,
         "name": "Spartan Deadeye (Stalker Rifle)",
         "hidden": false,
-        "id": "1db1-95df-9d00-c3e4"
+        "id": "1db1-95df-9d00-c3e4",
+        "categoryLinks": [
+          {
+            "targetId": "ea97-b98e-0dbf-ae12",
+            "id": "8018-da4d-8da3-9898",
+            "primary": false,
+            "name": "Spartan Deadeye"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "5f89-9e6f-12eb-f053",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1033,7 +1111,21 @@
         "import": true,
         "name": "Spartan Deadeye (M392 DMR)",
         "hidden": false,
-        "id": "6780-087e-077e-95a8"
+        "id": "6780-087e-077e-95a8",
+        "categoryLinks": [
+          {
+            "targetId": "ea97-b98e-0dbf-ae12",
+            "id": "060a-9d32-1f9d-9d28",
+            "primary": false,
+            "name": "Spartan Deadeye"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "dd0a-c241-6f62-de1c",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1147,7 +1239,21 @@
         "import": true,
         "name": "Spartan Gungnir (Plasma Launcher)",
         "hidden": false,
-        "id": "0a2d-2b35-a9e7-c356"
+        "id": "0a2d-2b35-a9e7-c356",
+        "categoryLinks": [
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "fc67-7e37-d0d6-6115",
+            "primary": true,
+            "name": "Spartans"
+          },
+          {
+            "targetId": "5f8e-250c-0315-0033",
+            "id": "da18-895c-aaa6-e661",
+            "primary": false,
+            "name": "Spartan Gungnir"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1261,7 +1367,21 @@
         "import": true,
         "name": "Spartan Gungnir (M319 Grenade Launcher)",
         "hidden": false,
-        "id": "d288-d893-3e73-9179"
+        "id": "d288-d893-3e73-9179",
+        "categoryLinks": [
+          {
+            "targetId": "5f8e-250c-0315-0033",
+            "id": "2c46-a248-3a96-63b4",
+            "primary": false,
+            "name": "Spartan Gungnir"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "718d-4b4c-eb8d-558c",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1361,7 +1481,21 @@
         "import": true,
         "name": "Spartan HAZOP (M45 Shotgun)",
         "hidden": false,
-        "id": "ecb7-b371-9762-4de8"
+        "id": "ecb7-b371-9762-4de8",
+        "categoryLinks": [
+          {
+            "targetId": "8670-7d82-83e4-a346",
+            "id": "7583-6e9f-97c6-94ba",
+            "primary": false,
+            "name": "Spartan HAZOP"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "0c90-41ae-4de3-250c",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1461,7 +1595,21 @@
         "import": true,
         "name": "Spartan HAZOP (Spike Rifle)",
         "hidden": false,
-        "id": "8366-1617-d5c5-0935"
+        "id": "8366-1617-d5c5-0935",
+        "categoryLinks": [
+          {
+            "targetId": "8670-7d82-83e4-a346",
+            "id": "8c70-9faf-e6ba-718f",
+            "primary": false,
+            "name": "Spartan HAZOP"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "b84c-a5c3-d8c7-8d17",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1568,7 +1716,21 @@
         "import": true,
         "name": "Spartan JFO (H-165 Target Locator)",
         "hidden": false,
-        "id": "1787-c875-5664-b8f0"
+        "id": "1787-c875-5664-b8f0",
+        "categoryLinks": [
+          {
+            "targetId": "2a76-9b4a-a828-4f45",
+            "id": "5589-6f2d-88b0-35cd",
+            "primary": false,
+            "name": "Spartan JFO"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "2bcd-72ec-f6de-f91a",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1675,7 +1837,21 @@
         "import": true,
         "name": "Spartan JFO (Concussion Rifle)",
         "hidden": false,
-        "id": "1403-124f-6586-cbc3"
+        "id": "1403-124f-6586-cbc3",
+        "categoryLinks": [
+          {
+            "targetId": "2a76-9b4a-a828-4f45",
+            "id": "bb11-0abf-4dd7-a0f9",
+            "primary": false,
+            "name": "Spartan JFO"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "c312-1e99-9c1d-3ac8",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1775,7 +1951,21 @@
         "import": true,
         "name": "Spartan MK VII (Pulse Carbine)",
         "hidden": false,
-        "id": "d444-ab79-454b-0efc"
+        "id": "d444-ab79-454b-0efc",
+        "categoryLinks": [
+          {
+            "targetId": "303f-4cf3-8a66-752e",
+            "id": "58b1-3817-863c-1d35",
+            "primary": false,
+            "name": "Spartan MK VII"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "c3f2-3324-2c79-0df3",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1875,7 +2065,21 @@
         "import": true,
         "name": "Spartan MK VII (MA40 Assault Rifle)",
         "hidden": false,
-        "id": "13ad-efb3-b0de-27d6"
+        "id": "13ad-efb3-b0de-27d6",
+        "categoryLinks": [
+          {
+            "targetId": "303f-4cf3-8a66-752e",
+            "id": "f035-2627-0351-2a6b",
+            "primary": false,
+            "name": "Spartan MK VII"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "3b64-8ef7-9429-b273",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -1975,7 +2179,21 @@
         "import": true,
         "name": "Spartan Zvezda (Cindershot)",
         "hidden": false,
-        "id": "2787-f067-da88-0683"
+        "id": "2787-f067-da88-0683",
+        "categoryLinks": [
+          {
+            "targetId": "6281-5240-88ea-5a83",
+            "id": "ea32-59a0-cf86-32ee",
+            "primary": false,
+            "name": "Spartan Zvezda"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "4157-064f-4ae4-dcfc",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2075,7 +2293,21 @@
         "import": true,
         "name": "Spartan Zvezda (VK78 Commando)",
         "hidden": false,
-        "id": "1981-2457-9b52-2579"
+        "id": "1981-2457-9b52-2579",
+        "categoryLinks": [
+          {
+            "targetId": "6281-5240-88ea-5a83",
+            "id": "dba1-6be3-b425-9db6",
+            "primary": false,
+            "name": "Spartan Zvezda"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "bdd4-3ad5-56d4-bbb2",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2175,7 +2407,21 @@
         "import": true,
         "name": "Spartan CQB (Gravity Hammer)",
         "hidden": false,
-        "id": "9ff5-6361-3b46-4c84"
+        "id": "9ff5-6361-3b46-4c84",
+        "categoryLinks": [
+          {
+            "targetId": "3686-00ec-4308-7872",
+            "id": "709f-950d-3f0f-a820",
+            "primary": false,
+            "name": "Spartan CQB"
+          },
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "b1be-e9f8-560c-2660",
+            "primary": true,
+            "name": "Spartans"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2268,7 +2514,21 @@
         "import": true,
         "name": "Spartan Brawler (Needler)",
         "hidden": false,
-        "id": "720d-0c1b-186e-29bb"
+        "id": "720d-0c1b-186e-29bb",
+        "categoryLinks": [
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "fc40-aa97-1b0a-52be",
+            "primary": true,
+            "name": "Spartans"
+          },
+          {
+            "targetId": "69c4-20c5-0974-9229",
+            "id": "58ed-139f-d61a-ecf1",
+            "primary": false,
+            "name": "Spartan Brawler"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2361,7 +2621,21 @@
         "import": true,
         "name": "Spartan Brawler (CQS48 Bulldog)",
         "hidden": false,
-        "id": "7ac5-ed0b-9056-b321"
+        "id": "7ac5-ed0b-9056-b321",
+        "categoryLinks": [
+          {
+            "targetId": "b5c4-8d22-51d8-2142",
+            "id": "ecfd-ec59-f8b0-76f4",
+            "primary": true,
+            "name": "Spartans"
+          },
+          {
+            "targetId": "69c4-20c5-0974-9229",
+            "id": "fe12-8f5d-01e9-48b2",
+            "primary": false,
+            "name": "Spartan Brawler"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2454,7 +2728,21 @@
         "import": true,
         "name": "ODST Special Purpose Trooper (M392 DMR)",
         "hidden": false,
-        "id": "f9c7-b65b-997c-de9c"
+        "id": "f9c7-b65b-997c-de9c",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "b289-23ad-c1ce-077b",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "4374-6af8-8130-9fca",
+            "id": "dda2-3403-610c-1ccb",
+            "primary": false,
+            "name": "ODST Special Trooper"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2547,7 +2835,21 @@
         "import": true,
         "name": "ODST Special Purpose Trooper (BR55 Battle Rifle)",
         "hidden": false,
-        "id": "fc4a-4438-3830-d0aa"
+        "id": "fc4a-4438-3830-d0aa",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "a5c2-63ac-3ad7-de46",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "4374-6af8-8130-9fca",
+            "id": "7713-6198-b05c-9fe9",
+            "primary": false,
+            "name": "ODST Special Trooper"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2639,7 +2941,21 @@
         "import": true,
         "name": "ODST Firebreak (M90 Shotgun)",
         "hidden": false,
-        "id": "06f3-4b28-2fdf-92ca"
+        "id": "06f3-4b28-2fdf-92ca",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "ef42-7cfc-b14a-b64b",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "fe10-3385-bc9f-9387",
+            "id": "c981-cd32-d994-1283",
+            "primary": false,
+            "name": "ODST Firebreak"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2731,7 +3047,21 @@
         "import": true,
         "name": "ODST Firebreak (M7057 Flamethrower)",
         "hidden": false,
-        "id": "df23-892c-ec35-f21d"
+        "id": "df23-892c-ec35-f21d",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "32ca-0a5c-8c15-b9a3",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "fe10-3385-bc9f-9387",
+            "id": "c0f5-9f5d-3ee9-f875",
+            "primary": false,
+            "name": "ODST Firebreak"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2824,7 +3154,21 @@
         "import": true,
         "name": "ODST Captain",
         "hidden": false,
-        "id": "e4b6-6c94-3b86-6729"
+        "id": "e4b6-6c94-3b86-6729",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "bd64-ab89-ff1c-640d",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "30a4-7f5f-a115-e664",
+            "id": "6a4a-363c-3e8d-574c",
+            "primary": false,
+            "name": "ODST Captain"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -2924,7 +3268,21 @@
         "import": true,
         "name": "ODST Air Assault 'Bullfrog' (MA40 Assault Rifle)",
         "hidden": false,
-        "id": "bc13-cdf0-44ee-f266"
+        "id": "bc13-cdf0-44ee-f266",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "2bf4-66a2-fbbe-359e",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "6930-2fba-cca1-df88",
+            "id": "17e0-5fef-3166-d0b0",
+            "primary": false,
+            "name": "ODST Air Assault 'Bullfrog'"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -3024,7 +3382,21 @@
         "import": true,
         "name": "ODST Air Assault 'Bullfrog' (M7S SMG)",
         "hidden": false,
-        "id": "074e-5e46-e516-b697"
+        "id": "074e-5e46-e516-b697",
+        "categoryLinks": [
+          {
+            "targetId": "8182-1cf0-bbf8-2470",
+            "id": "18fc-263e-4be9-ecf2",
+            "primary": true,
+            "name": "ODST"
+          },
+          {
+            "targetId": "6930-2fba-cca1-df88",
+            "id": "3376-b65c-5360-ad24",
+            "primary": false,
+            "name": "ODST Air Assault 'Bullfrog'"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -3106,7 +3478,15 @@
         "import": true,
         "name": " One Man Army (Master Chief only)",
         "hidden": false,
-        "id": "1353-6283-946c-fc3e"
+        "id": "1353-6283-946c-fc3e",
+        "categoryLinks": [
+          {
+            "targetId": "6fa8-d610-d974-00b8",
+            "id": "e98e-48bc-ee61-0be3",
+            "primary": true,
+            "name": "UNSC Special Orders"
+          }
+        ]
       },
       {
         "constraints": [
@@ -3148,7 +3528,15 @@
         "import": true,
         "name": " Supply Drop (Any UNSC) ",
         "hidden": false,
-        "id": "8ddd-f7de-687b-f50d"
+        "id": "8ddd-f7de-687b-f50d",
+        "categoryLinks": [
+          {
+            "targetId": "6fa8-d610-d974-00b8",
+            "id": "3b08-4886-d7ae-a528",
+            "primary": true,
+            "name": "UNSC Special Orders"
+          }
+        ]
       },
       {
         "constraints": [
@@ -3190,7 +3578,15 @@
         "import": true,
         "name": " Your Orders Have Changed (Must include Dare) ",
         "hidden": false,
-        "id": "3345-743d-642e-730d"
+        "id": "3345-743d-642e-730d",
+        "categoryLinks": [
+          {
+            "targetId": "6fa8-d610-d974-00b8",
+            "id": "522c-ba77-fa07-2239",
+            "primary": true,
+            "name": "UNSC Special Orders"
+          }
+        ]
       },
       {
         "constraints": [
@@ -3232,7 +3628,15 @@
         "import": true,
         "name": " Hot Drop (Any ODST)",
         "hidden": false,
-        "id": "a684-0c41-9d76-4ebc"
+        "id": "a684-0c41-9d76-4ebc",
+        "categoryLinks": [
+          {
+            "targetId": "6fa8-d610-d974-00b8",
+            "id": "15db-410b-daae-0a67",
+            "primary": true,
+            "name": "UNSC Special Orders"
+          }
+        ]
       },
       {
         "constraints": [
@@ -3274,7 +3678,15 @@
         "import": true,
         "name": " Return to Sender (Any Spartan)",
         "hidden": false,
-        "id": "428e-078c-3347-6f0a"
+        "id": "428e-078c-3347-6f0a",
+        "categoryLinks": [
+          {
+            "targetId": "6fa8-d610-d974-00b8",
+            "id": "d1a0-f777-3a9d-14c0",
+            "primary": true,
+            "name": "UNSC Special Orders"
+          }
+        ]
       },
       {
         "constraints": [
@@ -3316,7 +3728,15 @@
         "import": true,
         "name": " Snap Shot (Any Spartan)",
         "hidden": false,
-        "id": "4618-14ce-9e2a-22fb"
+        "id": "4618-14ce-9e2a-22fb",
+        "categoryLinks": [
+          {
+            "targetId": "6fa8-d610-d974-00b8",
+            "id": "a157-b2e6-e225-5c13",
+            "primary": true,
+            "name": "UNSC Special Orders"
+          }
+        ]
       },
       {
         "infoGroups": [
@@ -4427,7 +4847,7 @@
     "name": "UNSC",
     "gameSystemId": "sys-d6f4-c22a-702c-7c63",
     "gameSystemRevision": 1,
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": 2.03,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema"
