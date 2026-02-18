@@ -3152,9 +3152,7 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "0771-d2c1-8191-f1aa",
-            "includeChildSelections": false,
-            "includeChildForces": false
+            "id": "2cdf-ae09-4e9b-22fe"
           },
           {
             "type": "max",
@@ -3162,9 +3160,7 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "45ee-24fd-35cd-975a",
-            "includeChildSelections": false,
-            "includeChildForces": false
+            "id": "a18e-7ad3-13da-71b2"
           }
         ],
         "infoLinks": [
@@ -6231,7 +6227,7 @@
         "publicationId": "3020-5a40-6af2-87af",
         "infoGroups": [
           {
-            "name": "M319 Grenade Launcher (Main Fire)",
+            "name": "M319 Grenade Launcher (Range Main)",
             "id": "619a-f798-d781-5038",
             "hidden": false,
             "infoGroups": [
@@ -6273,7 +6269,7 @@
             ],
             "profiles": [
               {
-                "name": "M319 Grenade Launcher (Main Fire)",
+                "name": "M319 Grenade Launcher (Ranged Main)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -6299,7 +6295,7 @@
             ]
           },
           {
-            "name": "M319 Grenade Launcher (Alt. Fire)",
+            "name": "M319 Grenade Launcher (Ranged Alt.)",
             "id": "caf3-8162-96dc-b150",
             "hidden": false,
             "infoGroups": [
@@ -6327,7 +6323,7 @@
             ],
             "profiles": [
               {
-                "name": "M319 Grenade Launcher (Alt. Fire)",
+                "name": "M319 Grenade Launcher (Ranged Alt.)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -7665,7 +7661,7 @@
         "publicationId": "3020-5a40-6af2-87af",
         "infoGroups": [
           {
-            "name": "Ravager (Main Fire)",
+            "name": "Ravager (Ranged Main)",
             "id": "07f1-b9df-876a-90c2",
             "hidden": false,
             "infoGroups": [
@@ -7686,7 +7682,7 @@
             ],
             "profiles": [
               {
-                "name": "Ravager (Main Fire)",
+                "name": "Ravager (Ranged Main)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -7759,7 +7755,7 @@
             ]
           },
           {
-            "name": "Ravager (Alt. Fire)",
+            "name": "Ravager (Ranged Alt.)",
             "id": "1bb1-0672-e976-937a",
             "hidden": false,
             "infoGroups": [
@@ -7808,7 +7804,7 @@
             ],
             "profiles": [
               {
-                "name": "Ravager (Alt. Fire)",
+                "name": "Ravager (Ranged Alt.)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
