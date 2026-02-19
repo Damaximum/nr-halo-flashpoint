@@ -3834,39 +3834,39 @@
       {
         "characteristics": [
           {
-            "$text": "4+",
             "name": "RA",
-            "typeId": "1cbd-dd42-cb42-70cc"
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "4+"
           },
           {
-            "$text": "6+",
             "name": "FI",
-            "typeId": "945b-dfd9-0b36-b383"
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "6+"
           },
           {
-            "$text": "6+",
             "name": "SV",
-            "typeId": "44a3-69cf-7d55-3bd6"
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
           },
           {
-            "$text": "2-2",
             "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
           },
           {
-            "$text": "2",
             "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
-            "$text": "3",
             "name": "HP",
-            "typeId": "59e3-11bd-4376-aa67"
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "3"
           },
           {
-            "$text": "Stealthy, Tactician (2)",
             "name": "Keywords",
-            "typeId": "9471-bf5b-3f44-b4b4"
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Stealthy, Tactician (2)"
           }
         ],
         "name": "Captain Veronica Dare",
@@ -3878,39 +3878,39 @@
       {
         "characteristics": [
           {
-            "$text": "3+",
             "name": "RA",
-            "typeId": "1cbd-dd42-cb42-70cc"
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "3+"
           },
           {
-            "$text": "4+",
             "name": "FI",
-            "typeId": "945b-dfd9-0b36-b383"
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
           },
           {
-            "$text": "4+",
             "name": "SV",
-            "typeId": "44a3-69cf-7d55-3bd6"
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "4+"
           },
           {
-            "$text": "3",
             "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
           },
           {
-            "$text": "1",
             "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
-            "$text": "1-2",
             "name": "HP",
-            "typeId": "59e3-11bd-4376-aa67"
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "3"
           },
           {
-            "$text": "Fast Transition, Scout, Tactician (1)",
             "name": "Keywords",
-            "typeId": "9471-bf5b-3f44-b4b4"
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Fast Transition, Scout, Tactician (1)"
           }
         ],
         "name": "Gunnery Sergeant Buck",
@@ -4010,39 +4010,39 @@
       {
         "characteristics": [
           {
-            "$text": "5+",
             "name": "RA",
-            "typeId": "1cbd-dd42-cb42-70cc"
+            "typeId": "1cbd-dd42-cb42-70cc",
+            "$text": "5+"
           },
           {
-            "$text": "4+",
             "name": "FI",
-            "typeId": "945b-dfd9-0b36-b383"
+            "typeId": "945b-dfd9-0b36-b383",
+            "$text": "4+"
           },
           {
-            "$text": "5+",
             "name": "SV",
-            "typeId": "44a3-69cf-7d55-3bd6"
+            "typeId": "44a3-69cf-7d55-3bd6",
+            "$text": "5+"
           },
           {
-            "$text": "1-3",
             "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610"
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
           },
           {
-            "$text": "1",
             "name": "Armour",
-            "typeId": "da67-cd18-63a3-a31f"
+            "typeId": "da67-cd18-63a3-a31f",
+            "$text": "1"
           },
           {
-            "$text": "1",
             "name": "HP",
-            "typeId": "59e3-11bd-4376-aa67"
+            "typeId": "59e3-11bd-4376-aa67",
+            "$text": "3"
           },
           {
-            "$text": "Acrobatic, Jump Pack",
             "name": "Keywords",
-            "typeId": "9471-bf5b-3f44-b4b4"
+            "typeId": "9471-bf5b-3f44-b4b4",
+            "$text": "Acrobatic, Jump Pack"
           }
         ],
         "name": "ODST Air Assault 'Bullfrog'",
