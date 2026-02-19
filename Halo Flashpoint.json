@@ -146,7 +146,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Energy Shield Barrier (n)",
+                "name": "Energy Shield Barrier",
                 "id": "789c-ec15-d52a-e90d",
                 "hidden": false,
                 "type": "rule",
@@ -290,7 +290,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "2f0e-b448-f5c6-b13c",
                 "hidden": false,
                 "type": "rule",
@@ -882,7 +882,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "74cf-0477-c276-dc70",
                 "hidden": false,
                 "type": "rule",
@@ -926,7 +926,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "27b7-96dc-b010-2587",
                 "hidden": false,
                 "type": "rule",
@@ -947,7 +947,7 @@
                 "targetId": "11ce-920b-2a5e-68a0"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "b529-5cc8-0b14-8bfa",
                 "hidden": false,
                 "type": "rule",
@@ -1043,7 +1043,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Implosion (n)",
+                "name": "Implosion",
                 "id": "83d5-f90c-b461-f424",
                 "hidden": false,
                 "type": "rule",
@@ -1114,7 +1114,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "8e72-9921-69cb-26d0",
                 "hidden": false,
                 "type": "rule",
@@ -1198,7 +1198,7 @@
                 "targetId": "9b8d-c2ae-11a9-f068"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "ea74-c7ed-962f-b9d1",
                 "hidden": false,
                 "type": "rule",
@@ -1735,14 +1735,14 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "M319 Grenade Launcher (Default)",
+        "name": "M319 Grenade Launcher",
         "hidden": false,
         "id": "a3fa-4430-4042-b376",
         "costs": [
           {
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
-            "value": 0
+            "value": 10
           }
         ],
         "constraints": [
@@ -1753,14 +1753,6 @@
             "scope": "parent",
             "shared": true,
             "id": "89c2-de06-ceec-d89e"
-          },
-          {
-            "type": "min",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "52e9-e874-e404-f725"
           }
         ],
         "infoLinks": [
@@ -3143,26 +3135,32 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "M319 Grenade Launcher",
+        "name": "M319 Grenade Launcher (Default)",
         "hidden": false,
         "id": "73de-71ba-2ab1-99cc",
         "costs": [
           {
             "name": "Points",
             "typeId": "e571-c9d9-345c-8ef2",
-            "value": 10
+            "value": 0
           }
         ],
         "constraints": [
           {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "2cdf-ae09-4e9b-22fe"
+          },
+          {
             "type": "max",
             "value": 1,
             "field": "selections",
-            "scope": "roster",
+            "scope": "parent",
             "shared": true,
-            "id": "0771-d2c1-8191-f1aa",
-            "includeChildSelections": true,
-            "includeChildForces": true
+            "id": "a18e-7ad3-13da-71b2"
           }
         ],
         "infoLinks": [
@@ -4069,7 +4067,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Implosion (n)",
+                "name": "Implosion",
                 "id": "31b7-7e09-6667-2a58",
                 "hidden": false,
                 "type": "rule",
@@ -4158,7 +4156,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "4ec3-1f03-557c-5e28",
                 "hidden": false,
                 "type": "rule",
@@ -4464,7 +4462,7 @@
                 "targetId": "5522-d21b-7ecb-a0e2"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "a09e-88a8-3c4a-ea7c",
                 "hidden": false,
                 "type": "rule",
@@ -4485,7 +4483,7 @@
                 "targetId": "11ce-920b-2a5e-68a0"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8971-834a-adf4-aab2",
                 "hidden": false,
                 "type": "rule",
@@ -4619,7 +4617,7 @@
                 "targetId": "9b8d-c2ae-11a9-f068"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "2341-c720-91f0-dadf",
                 "hidden": false,
                 "type": "rule",
@@ -4660,24 +4658,6 @@
               }
             ],
             "publicationId": "5e4c-716d-7f6f-ade1"
-          }
-        ],
-        "constraints": [
-          {
-            "type": "min",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "d3e3-d5f3-0263-8dee"
-          },
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "ba65-7b04-26a1-ea4f"
           }
         ]
       }
@@ -4779,12 +4759,12 @@
             "id": "44a3-69cf-7d55-3bd6"
           },
           {
-            "name": "Armour",
-            "id": "da67-cd18-63a3-a31f"
-          },
-          {
             "name": "Move",
             "id": "8ba7-0d9a-5f8d-3610"
+          },
+          {
+            "name": "Armour",
+            "id": "da67-cd18-63a3-a31f"
           },
           {
             "name": "HP",
@@ -4804,6 +4784,43 @@
           {
             "name": "Details",
             "id": "32dd-8921-9c78-cd41"
+          }
+        ]
+      },
+      {
+        "name": "Model Profile Test",
+        "id": "7eb4-433e-296d-4853",
+        "hidden": false,
+        "attributeTypes": [
+          {
+            "name": "RA",
+            "id": "4747-578e-a60c-c966"
+          },
+          {
+            "name": "FI",
+            "id": "e784-93c1-89a6-196b"
+          },
+          {
+            "name": "SV",
+            "id": "4f8c-e1fd-e00d-bdc3"
+          },
+          {
+            "name": "Move",
+            "id": "09ab-0636-f255-8bee"
+          },
+          {
+            "name": "Armour",
+            "id": "f0b8-89ad-6be4-e326"
+          },
+          {
+            "name": "HP",
+            "id": "061b-48d3-20dd-d9f5"
+          }
+        ],
+        "characteristicTypes": [
+          {
+            "name": "Keywords",
+            "id": "c5d2-6862-08f1-0bcf"
           }
         ]
       }
@@ -4852,25 +4869,25 @@
         "description": "This weapon causes an electro-magnetic pulse or similar disruptive effect on the target area.\n\n\nA weapon with this keyword will cause all Energy Shields to be depleted on all models in the cube with the target model, including the target model themselves. If the weapon targets a cube, all models in the cube hit will be affected."
       },
       {
-        "name": "Energy Shield (n)",
+        "name": "Energy Shield",
         "id": "4681-64c1-c51a-affe",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "Energy Shields are designed to absorb the energy of incoming attacks, whether this is from energy weapons or ballistic projectiles, melee combat or falling off a building.\n\n\nEnergy Shields take effect whenever the model takes Hits, but before any Armour or Armour Piercing is taken into account.\n\n\nModels with the Energy Shield keyword start the game with (n) Energy Shields (fully charged). When a model with this keyword takes Hits from losing an opposed dice test, they lose one shield for each Hit they need to block, until all Hits have been negated or they have run out of energy shields. If there are Hits remaining after all energy shields have gone, adjust this by any Armour and Armour Piercing that apply to calculate if the model will actually suffer Wounds. Refer to Damage and Death.\n\n\nIf a model is protected by more than one Energy Shield source, they are all used before moving on to armour.\n\n\nAt the beginning of each Round, every model with the Energy Shield keyword regains 1 depleted Energy Shield on their Profile Card (up to a maximum of n) to represent their Energy Shield regenerating. Flip one Energy Shield token back to its blue side."
+        "description": "Shown as Energy Shield (n)\n\n\nEnergy Shields are designed to absorb the energy of incoming attacks, whether this is from energy weapons or ballistic projectiles, melee combat or falling off a building.\n\n\nEnergy Shields take effect whenever the model takes Hits, but before any Armour or Armour Piercing is taken into account.\n\n\nModels with the Energy Shield keyword start the game with (n) Energy Shields (fully charged). When a model with this keyword takes Hits from losing an opposed dice test, they lose one shield for each Hit they need to block, until all Hits have been negated or they have run out of energy shields. If there are Hits remaining after all energy shields have gone, adjust this by any Armour and Armour Piercing that apply to calculate if the model will actually suffer Wounds. Refer to Damage and Death.\n\n\nIf a model is protected by more than one Energy Shield source, they are all used before moving on to armour.\n\n\nAt the beginning of each Round, every model with the Energy Shield keyword regains 1 depleted Energy Shield on their Profile Card (up to a maximum of n) to represent their Energy Shield regenerating. Flip one Energy Shield token back to its blue side."
       },
       {
-        "name": "Energy Shield Barrier (n)",
+        "name": "Energy Shield Barrier",
         "id": "fad5-8024-b23f-8ef9",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "This is a more advanced, stationary version of the Energy Shield and works in the same way.\n\n\nInstead of covering a single model, an Energy Shield Barrier provides protection for every model, friend or foe, in the same cube. However, the protection is only effective against Ranged attacks as any attacker engaging in an Assault with CC weapons is already inside the Barrier.\n\n\nWhen the Energy Shield Barrier is placed in a cube, place (n) Energy Shields Tokens with it. If a model is protected by more than one Energy Shield or Barrier during an attack, then all of them apply. Remove shields from the Barrier first, and then from the model’s own Energy Shield. Energy Shield Barriers are removed from the board if all their shields are used or depleted. Energy Shield Barriers do not regenerate at the start of the Round."
+        "description": "Shown as Energy Shield Barrier (n)\n\n\nThis is a more advanced, stationary version of the Energy Shield and works in the same way.\n\n\nInstead of covering a single model, an Energy Shield Barrier provides protection for every model, friend or foe, in the same cube. However, the protection is only effective against Ranged attacks as any attacker engaging in an Assault with CC weapons is already inside the Barrier.\n\n\nWhen the Energy Shield Barrier is placed in a cube, place (n) Energy Shields Tokens with it. If a model is protected by more than one Energy Shield or Barrier during an attack, then all of them apply. Remove shields from the Barrier first, and then from the model’s own Energy Shield. Energy Shield Barriers are removed from the board if all their shields are used or depleted. Energy Shield Barriers do not regenerate at the start of the Round."
       },
       {
-        "name": "Energy Shield Depleter (ESD) (n)",
+        "name": "ESD",
         "id": "9085-340f-339c-693b",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "Some weapons are designed to exhaust Energy Shields on contact, to deny the enemy their defences.\n\n\nWhen a model takes hits from a Shoot or Assault attack, caused by a weapon with the ESD keyword, immediately deplete (n) Energy Shields from the target model. Then resolve the Hits caused against the target’s remaining Energy Shields and Armour as usual.\n\n\nIf the target model is protected by an Energy Shield Barrier, the Barrier is depleted first, then the target model’s own Energy Shield."
+        "description": "Energy Shield Depleter (ESD)\n\n\nShown as ESD (n)\n\n\nSome weapons are designed to exhaust Energy Shields on contact, to deny the enemy their defences.\n\n\nWhen a model takes hits from a Shoot or Assault attack, caused by a weapon with the ESD keyword, immediately deplete (n) Energy Shields from the target model. Then resolve the Hits caused against the target’s remaining Energy Shields and Armour as usual.\n\n\nIf the target model is protected by an Energy Shield Barrier, the Barrier is depleted first, then the target model’s own Energy Shield."
       },
       {
         "name": "Evade",
@@ -4908,11 +4925,11 @@
         "description": "When a model with a Fire token is activated, it may take an Auxiliary action to remove the Fire token. If it does not, it will take 1 wound at the end of its activation and then remove the Fire token. If this kills the model, the opposing player is awarded the kill where relevant (e.g. Slayer, or VIP scenarios).\n\n\nA model will only ever be given 1 Fire token, any further tokens added are ignored. "
       },
       {
-        "name": "Firing Platform (n)",
+        "name": "Firing Platform",
         "id": "bb6e-6de8-2cd5-4bf1",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "This weapon fires large calibre ammunition or very powerful energy blasts.\n\n\nA model firing a weapon with the Firing Platform keyword gains +n dice when performing a Shoot action."
+        "description": "Shown as Firing Platform (n)\n\n\nThis weapon fires large calibre ammunition or very powerful energy blasts.\n\n\nA model firing a weapon with the Firing Platform keyword gains +n dice when performing a Shoot action."
       },
       {
         "name": "Flight",
@@ -4922,11 +4939,11 @@
         "description": "This soldier is equipped with an anti-grav device or thrusters to allow them to reach high terrain quickly or soar over ground obstacles.\n\n\nA model with this keyword can pass through cubes without walls or floors during their movement, and may change levels without climbing up or down terrain. The model must end its move in a cube (and position) that allows it to be physically placed on the gaming table. If the model falls, it will not take damage or be Pinned. This is not free movement, and the model still requires enough cubes of movement to do so. "
       },
       {
-        "name": "Frag (n)",
+        "name": "Frag",
         "id": "9ca9-df34-4859-664e",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "When a high-explosive weapon that can blast infantry to pieces is coming this way, you’ll hear the shout: “Frag incoming!”.\n\n\nAfter rolling to hit with a weapon using the Explosive or Grenade keywords, roll a (n) dice 4+ test (X) for the strength of the attack. No modifiers or rerolls allowed. For example, for a Frag (5) weapon you would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).\n\n\nThe shooter rolls once for the attack and then each model in the cube rolls separately for their Survive test (enemy and friendly models are all affected).\n\n\nDraw or Survive has more successes: Attack fails to cause any Hits.\n\n\nFrag has more successes: The difference in number of successes is the number of Hits caused. Refer to Damage and Death (link).\n\n\nIn Addition, if Frag has the same or more successes, than a surviving model it is marked as Pinned and then thrown one cube in a random direction. "
+        "description": "Shown as Frag (n)\n\n\nWhen a high-explosive weapon that can blast infantry to pieces is coming this way, you’ll hear the shout: “Frag incoming!”.\n\n\nAfter rolling to hit with a weapon using the Explosive or Grenade keywords, roll a (n) dice 4+ test (X) for the strength of the attack. No modifiers or rerolls allowed. For example, for a Frag (5) weapon you would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).\n\n\nThe shooter rolls once for the attack and then each model in the cube rolls separately for their Survive test (enemy and friendly models are all affected).\n\n\nDraw or Survive has more successes: Attack fails to cause any Hits.\n\n\nFrag has more successes: The difference in number of successes is the number of Hits caused. Refer to Damage and Death (link).\n\n\nIn Addition, if Frag has the same or more successes, than a surviving model it is marked as Pinned and then thrown one cube in a random direction. "
       },
       {
         "name": "Grenade",
@@ -4950,11 +4967,11 @@
         "description": "Some soldiers can overwhelm the enemy with sheer weight of numbers rather than great skill at arms.\n\n\nDuring a close combat fight, models with the Horde keyword gain the friendly model bonus as normal, plus an additional +1 die modifier for each friendly model in the same cube (not counting itself) that also has the Horde keyword."
       },
       {
-        "name": "Implosion (n)",
+        "name": "Implosion",
         "id": "7f9a-fa85-e802-e00e",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "This weapon has an area of effect that damages targets caught within it, but does not throw them away from the detonation.\n\n\nAfter rolling to hit with an Implosion weapon using the Explosive or Grenade keyword, roll a (n) dice 4+ test (X) for the strength of the attack. No modifiers or re-rolls allowed. For example, an Implosion (5) weapon would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).\n\n\nThe shooter rolls once for the attack and then each model in the cube must roll separately for their Survive test (enemy and friendly models are all affected).\n\n\nDraw or Survive has more successes: Attack fails to cause any hits.\n\n\nImplosion has more successes: The difference in number of successes is the number of Hits caused. "
+        "description": "Shown as Implosion (n)\n\n\nThis weapon has an area of effect that damages targets caught within it, but does not throw them away from the detonation.\n\n\nAfter rolling to hit with an Implosion weapon using the Explosive or Grenade keyword, roll a (n) dice 4+ test (X) for the strength of the attack. No modifiers or re-rolls allowed. For example, an Implosion (5) weapon would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).\n\n\nThe shooter rolls once for the attack and then each model in the cube must roll separately for their Survive test (enemy and friendly models are all affected).\n\n\nDraw or Survive has more successes: Attack fails to cause any hits.\n\n\nImplosion has more successes: The difference in number of successes is the number of Hits caused. "
       },
       {
         "name": "Imposing",
@@ -4985,11 +5002,11 @@
         "description": "This weapon packs such a forceful impact that the target is likely to be thrown backwards when hit, whether they are still alive or dead.\n\n\nWhen a model using a weapon with this keyword makes a Ranged or Fight test and rolls more successes than the target model (regardless of whether any wounds are caused) it will force the target into an adjacent cube on the same level. Resolve the attack as normal, then move the target one cube directly away from the attacker.\n\n\nIf the attacker and target are in the same cube (i.e. in an Assault action) then the attacker chooses any adjacent cube on the same level to move the target into.\n\n\nOtherwise, use a normal Line of Sight between attacker and target to work out where the model moves (i.e. a Shoot action). Continue the LOS from the attacker through the target and into the first new cube beyond the one the target is standing in and on the same level. If it is unclear which cube the target moves into, roll a dice to randomly determine the destination.\n\n\nRefer to the Forced Movement rules for consequent effects of Knockback."
       },
       {
-        "name": "Lethal (n)",
+        "name": "Lethal",
         "id": "751d-9206-f5e0-03b3",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "This weapon burns flesh or splinters into fragments, causing hideous internal injuries.\n\n\nA model that suffers wounds from a weapon with the Lethal keyword (after applying shields and armour) takes (n) additional wounds (in total, not per wound suffered).\n\n\nLethal is cumulative. If more than one Lethal modifier applies to the attack, add together the (n) values."
+        "description": "Shown as Lethal (n)\n\n\nThis weapon burns flesh or splinters into fragments, causing hideous internal injuries.\n\n\nA model that suffers wounds from a weapon with the Lethal keyword (after applying shields and armour) takes (n) additional wounds (in total, not per wound suffered).\n\n\nLethal is cumulative. If more than one Lethal modifier applies to the attack, add together the (n) values."
       },
       {
         "name": "Life Support",
@@ -5055,11 +5072,11 @@
         "description": "Some units are skilled at sneaking into advanced positions to gain an advantage when the battle starts in earnest.\n\n\nAfter deployment, but before the first Round, a model with the Scout keyword may make a free one-cube Advance action. If both sides have models with Scout then the player who will take the first Turn moves all their scouts first. A scout may not enter a cube containing an enemy model during this pre-battle movement but may pick up Items, weapons or scenario objects (e.g. Power Seeds)\n\n\nAdditionally:\n\n\n- A model with Scout can keep a Crouch Token they already have when they make an Advance action.\n\n\n- If this model has an Advance stat of 1, when this model uses a respawn point to enter the board after advancing it may take a Crouch action for free."
       },
       {
-        "name": "Smash (n)",
+        "name": "Smash",
         "id": "e0eb-47f2-7bcc-d042",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "An enemy with great physical strength, or a heavy melee weapon, who hits their foe with spectacular force.\n\n\nA model with the Smash keyword gains +n dice when performing a Fight test."
+        "description": "Shown as Smash (n)\n\n\nAn enemy with great physical strength, or a heavy melee weapon, who hits their foe with spectacular force.\n\n\nA model with the Smash keyword gains +n dice when performing a Fight test."
       },
       {
         "name": "Sniper Scope",
@@ -5111,11 +5128,11 @@
         "description": "This weapon has such a high rate of fire that anyone in the targeted area will need to take cover.\n\n\nIn addition to causing Hits and Wounds as normal, a weapon with this keyword causes all models (from either side) in the same cube as the target model to be Pinned."
       },
       {
-        "name": "Tactician (n)",
+        "name": "Tactician",
         "id": "0c27-a0b7-e267-67d7",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "A character with this keyword is a great leader and intuitively understands how to get the most out of a combat situation.\n\n\nWhile the Tactician model is in play on the board (not when off the board waiting to respawn):\n\n\n• Its player adds (n) Command Dice to their Command Dice roll at the start of the Round\n\n\n• The player may make (n) rerolls at this time\n\n\n• At the end of the Round, may carry over (n) unused Command Dice instead of rolling them again at the start of the next Round\n\n\nE.g. Ben has a Fireteam with 1 model with Tactician (1). He rolls 3 Command Dice at the start of Round 1 and makes 1 reroll if he wishes. At the end of Round 1, he has used 2 of the Command Dice results but has a Shoot action result left over. He may choose to carry this 1 result over to the next Round and just roll the other 2 dice to make his pool for Round 2, or he can roll all 3 dice.\n\n\nHaving more than one Tactician in a Fireteam provides additional benefits. If more than one model on the board has the keyword Tactician, add together the (n) value from each source."
+        "description": "Shown as Tactician (n)\n\n\nA character with this keyword is a great leader and intuitively understands how to get the most out of a combat situation.\n\n\nWhile the Tactician model is in play on the board (not when off the board waiting to respawn):\n\n\n• Its player adds (n) Command Dice to their Command Dice roll at the start of the Round\n\n\n• The player may make (n) rerolls at this time\n\n\n• At the end of the Round, may carry over (n) unused Command Dice instead of rolling them again at the start of the next Round\n\n\nE.g. Ben has a Fireteam with 1 model with Tactician (1). He rolls 3 Command Dice at the start of Round 1 and makes 1 reroll if he wishes. At the end of Round 1, he has used 2 of the Command Dice results but has a Shoot action result left over. He may choose to carry this 1 result over to the next Round and just roll the other 2 dice to make his pool for Round 2, or he can roll all 3 dice.\n\n\nHaving more than one Tactician in a Fireteam provides additional benefits. If more than one model on the board has the keyword Tactician, add together the (n) value from each source."
       },
       {
         "name": "Two-Uses",
@@ -5132,11 +5149,11 @@
         "description": "This fighter carries immense momentum and force into a fight.\n\n\nWhen this model triggers an Assault action by moving into a cube, they receive a +3 dice modifier to the Fight test instead of the normal +2."
       },
       {
-        "name": "Weight of Fire (n)",
+        "name": "Weight of Fire",
         "id": "d460-1d70-3f66-12ba",
         "hidden": false,
         "publicationId": "3020-5a40-6af2-87af",
-        "description": "This weapon has a high rate of fire, making it easier to hit the enemy.\n\n\nA model with this keyword may reroll (n) dice when making Ranged tests.\n\n\nWeight of Fire is cumulative. If more than one Weight of Fire modifier applies to the test, add together the (n) value from each source."
+        "description": "Shown as Weight of Fire (n)\n\n\nThis weapon has a high rate of fire, making it easier to hit the enemy.\n\n\nA model with this keyword may reroll (n) dice when making Ranged tests.\n\n\nWeight of Fire is cumulative. If more than one Weight of Fire modifier applies to the test, add together the (n) value from each source."
       }
     ],
     "sharedInfoGroups": [
@@ -5185,7 +5202,7 @@
                 "targetId": "9861-e0c7-0b2f-fd32"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "c21d-a156-332d-1aee",
                 "hidden": false,
                 "type": "rule",
@@ -5247,7 +5264,7 @@
                 "targetId": "6bcd-5ce1-278d-6996"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "f99d-6bb4-3cdb-c065",
                 "hidden": false,
                 "type": "rule",
@@ -5300,14 +5317,14 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "de1b-a144-4717-2cf9",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "751d-9206-f5e0-03b3"
                   },
                   {
-                    "name": "Smash (n)",
+                    "name": "Smash",
                     "id": "7be4-14ca-bc25-5cff",
                     "hidden": false,
                     "type": "rule",
@@ -5361,14 +5378,14 @@
                     "targetId": "1247-2180-b73a-b6af"
                   },
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "5c3c-2eec-cbf7-97df",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "9085-340f-339c-693b"
                   },
                   {
-                    "name": "Frag (n)",
+                    "name": "Frag",
                     "id": "4c07-d8b0-092d-0148",
                     "hidden": false,
                     "type": "rule",
@@ -5425,7 +5442,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "9077-34df-39aa-9b6c",
                 "hidden": false,
                 "type": "rule",
@@ -5439,14 +5456,14 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Implosion (n)",
+                "name": "Implosion",
                 "id": "4256-119e-0cc1-9681",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "7f9a-fa85-e802-e00e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "fddb-eca6-71c4-d4e8",
                 "hidden": false,
                 "type": "rule",
@@ -5475,14 +5492,14 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "d754-49b9-1e56-4011",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "b738-e896-417f-7cc8",
                 "hidden": false,
                 "type": "rule",
@@ -5570,7 +5587,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "58b2-c0e9-d792-3757",
                 "hidden": false,
                 "type": "rule",
@@ -5606,7 +5623,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "c26d-1a0a-1831-fca3",
                 "hidden": false,
                 "type": "rule",
@@ -5680,7 +5697,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "372a-ba85-4ff2-83aa",
                 "hidden": false,
                 "type": "rule",
@@ -5714,14 +5731,14 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "be35-d340-87e1-512b",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "9085-340f-339c-693b"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "e379-724a-bffd-2132",
                     "hidden": false,
                     "type": "rule",
@@ -5768,7 +5785,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "09f0-a060-91bc-de99",
                     "hidden": false,
                     "type": "rule",
@@ -5832,7 +5849,7 @@
                 "targetId": "0774-c86f-bf7a-4c11"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "190e-7eab-5a6d-433d",
                 "hidden": false,
                 "type": "rule",
@@ -5846,7 +5863,7 @@
                 "targetId": "6557-83a3-62a5-dbce"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "dd4b-5fc4-7304-ac94",
                 "hidden": false,
                 "type": "rule",
@@ -5908,7 +5925,7 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "979c-45ba-5ff1-b5cc",
                 "hidden": false,
                 "type": "rule",
@@ -5922,14 +5939,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "f907-ccf3-3005-fcd4",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9ca9-df34-4859-664e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8de9-a287-bf3e-73de",
                 "hidden": false,
                 "type": "rule",
@@ -5982,7 +5999,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "59c9-9c35-4df1-4de5",
                     "hidden": false,
                     "type": "rule",
@@ -5996,14 +6013,14 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "0869-5de0-ff1d-b60d",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "751d-9206-f5e0-03b3"
                   },
                   {
-                    "name": "Smash (n)",
+                    "name": "Smash",
                     "id": "de13-ad43-5146-8e17",
                     "hidden": false,
                     "type": "rule",
@@ -6057,7 +6074,7 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "90f3-af80-668a-e564",
                     "hidden": false,
                     "type": "rule",
@@ -6128,14 +6145,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "7597-b3e4-ca01-08b0",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "751d-9206-f5e0-03b3"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "743c-5512-b971-1457",
                 "hidden": false,
                 "type": "rule",
@@ -6197,14 +6214,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "84f5-7cff-fc1e-d64c",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "c785-bc3f-5fd5-2850",
                 "hidden": false,
                 "type": "rule",
@@ -6247,7 +6264,7 @@
         "publicationId": "3020-5a40-6af2-87af",
         "infoGroups": [
           {
-            "name": "M319 Grenade Launcher (Main Fire)",
+            "name": "M319 Grenade Launcher (Range Main)",
             "id": "619a-f798-d781-5038",
             "hidden": false,
             "infoGroups": [
@@ -6271,7 +6288,7 @@
                     "targetId": "9b8d-c2ae-11a9-f068"
                   },
                   {
-                    "name": "Frag (n)",
+                    "name": "Frag",
                     "id": "bf92-9f26-3661-a008",
                     "hidden": false,
                     "type": "rule",
@@ -6289,7 +6306,7 @@
             ],
             "profiles": [
               {
-                "name": "M319 Grenade Launcher (Main Fire)",
+                "name": "M319 Grenade Launcher (Ranged Main)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -6315,7 +6332,7 @@
             ]
           },
           {
-            "name": "M319 Grenade Launcher (Alt. Fire)",
+            "name": "M319 Grenade Launcher (Ranged Alt.)",
             "id": "caf3-8162-96dc-b150",
             "hidden": false,
             "infoGroups": [
@@ -6325,7 +6342,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Frag (n)",
+                    "name": "Frag",
                     "id": "6208-20a7-3b98-34b2",
                     "hidden": false,
                     "type": "rule",
@@ -6343,7 +6360,7 @@
             ],
             "profiles": [
               {
-                "name": "M319 Grenade Launcher (Alt. Fire)",
+                "name": "M319 Grenade Launcher (Ranged Alt.)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -6382,7 +6399,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "a9fb-06f7-f1c2-7032",
                 "hidden": false,
                 "type": "rule",
@@ -6444,7 +6461,7 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "4abe-8cac-a341-cc48",
                 "hidden": false,
                 "type": "rule",
@@ -6458,14 +6475,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "9219-2fdb-f47f-61cb",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9ca9-df34-4859-664e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "b047-1628-aad6-564b",
                 "hidden": false,
                 "type": "rule",
@@ -6520,14 +6537,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "2ac3-89c8-8103-e336",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "a1d0-0997-114a-70a3",
                 "hidden": false,
                 "type": "rule",
@@ -6582,7 +6599,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "46b9-c079-b820-3bed",
                 "hidden": false,
                 "type": "rule",
@@ -6603,7 +6620,7 @@
                 "targetId": "9861-e0c7-0b2f-fd32"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "e4b9-7551-60f6-a56e",
                 "hidden": false,
                 "type": "rule",
@@ -6830,7 +6847,7 @@
                 "targetId": "9861-e0c7-0b2f-fd32"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "b3d3-4248-18fe-946c",
                 "hidden": false,
                 "type": "rule",
@@ -6878,7 +6895,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "fcd6-876b-49e8-8610",
                 "hidden": false,
                 "type": "rule",
@@ -6892,7 +6909,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "a1d4-3556-d7bf-0eae",
                 "hidden": false,
                 "type": "rule",
@@ -6947,7 +6964,7 @@
                 "targetId": "6bcd-5ce1-278d-6996"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "cc54-505c-ec77-7602",
                 "hidden": false,
                 "type": "rule",
@@ -6995,7 +7012,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "3be6-bcf7-3904-5b23",
                 "hidden": false,
                 "type": "rule",
@@ -7043,7 +7060,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "3e25-c84a-ed6b-8085",
                 "hidden": false,
                 "type": "rule",
@@ -7057,14 +7074,14 @@
                 "targetId": "13e4-dea4-a03e-acbc"
               },
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "cc24-bcc2-c73f-d659",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9ca9-df34-4859-664e"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "ee8e-55bf-33a0-f3ba",
                 "hidden": false,
                 "type": "rule",
@@ -7164,7 +7181,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "2001-9483-7894-627d",
                     "hidden": false,
                     "type": "rule",
@@ -7219,7 +7236,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "9685-46d1-db6d-e896",
                     "hidden": false,
                     "type": "rule",
@@ -7233,7 +7250,7 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "ed22-9660-efd3-c3a5",
                     "hidden": false,
                     "type": "rule",
@@ -7321,7 +7338,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "b3b9-5ef0-5552-393a",
                 "hidden": false,
                 "type": "rule",
@@ -7383,7 +7400,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "9220-3704-fb49-2999",
                 "hidden": false,
                 "type": "rule",
@@ -7397,7 +7414,7 @@
                 "targetId": "6bcd-5ce1-278d-6996"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "7d2e-eb3e-7d0b-7f9b",
                 "hidden": false,
                 "type": "rule",
@@ -7445,7 +7462,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Frag (n)",
+                "name": "Frag",
                 "id": "2bbc-df5b-24e2-a58e",
                 "hidden": false,
                 "type": "rule",
@@ -7459,7 +7476,7 @@
                 "targetId": "e0a8-9e1d-ccc1-5f01"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "3434-9afd-5fdc-18da",
                 "hidden": false,
                 "type": "rule",
@@ -7514,14 +7531,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "e96a-8e58-a6e1-c754",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "12e9-fe40-32ec-72cc",
                 "hidden": false,
                 "type": "rule",
@@ -7576,7 +7593,7 @@
                 "targetId": "0774-c86f-bf7a-4c11"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "5bb5-6471-70e2-39a1",
                 "hidden": false,
                 "type": "rule",
@@ -7631,14 +7648,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "b6a3-1596-3696-fee5",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Weight of Fire (n)",
+                "name": "Weight of Fire",
                 "id": "e8af-8611-f3d5-4e7a",
                 "hidden": false,
                 "type": "rule",
@@ -7681,7 +7698,7 @@
         "publicationId": "3020-5a40-6af2-87af",
         "infoGroups": [
           {
-            "name": "Ravager (Main Fire)",
+            "name": "Ravager (Ranged Main)",
             "id": "07f1-b9df-876a-90c2",
             "hidden": false,
             "infoGroups": [
@@ -7702,7 +7719,7 @@
             ],
             "profiles": [
               {
-                "name": "Ravager (Main Fire)",
+                "name": "Ravager (Ranged Main)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -7738,7 +7755,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "8f79-dbfc-9e2d-225c",
                     "hidden": false,
                     "type": "rule",
@@ -7775,7 +7792,7 @@
             ]
           },
           {
-            "name": "Ravager (Alt. Fire)",
+            "name": "Ravager (Ranged Alt.)",
             "id": "1bb1-0672-e976-937a",
             "hidden": false,
             "infoGroups": [
@@ -7792,7 +7809,7 @@
                     "targetId": "1247-2180-b73a-b6af"
                   },
                   {
-                    "name": "Energy Shield Depleter (ESD) (n)",
+                    "name": "ESD",
                     "id": "5334-e346-cd11-cb62",
                     "hidden": false,
                     "type": "rule",
@@ -7806,7 +7823,7 @@
                     "targetId": "e0a8-9e1d-ccc1-5f01"
                   },
                   {
-                    "name": "Implosion (n)",
+                    "name": "Implosion",
                     "id": "92f1-4195-96b2-4de0",
                     "hidden": false,
                     "type": "rule",
@@ -7824,7 +7841,7 @@
             ],
             "profiles": [
               {
-                "name": "Ravager (Alt. Fire)",
+                "name": "Ravager (Ranged Alt.)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -7863,14 +7880,14 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "453a-28cc-668a-3087",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "9085-340f-339c-693b"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "0bac-502e-36e2-c551",
                 "hidden": false,
                 "type": "rule",
@@ -7932,7 +7949,7 @@
                 "targetId": "0774-c86f-bf7a-4c11"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "8807-598c-2371-dc13",
                 "hidden": false,
                 "type": "rule",
@@ -7987,7 +8004,7 @@
                 "targetId": "1247-2180-b73a-b6af"
               },
               {
-                "name": "Energy Shield Depleter (ESD) (n)",
+                "name": "ESD",
                 "id": "6a47-7575-2091-85ec",
                 "hidden": false,
                 "type": "rule",
@@ -8063,7 +8080,7 @@
                 "targetId": "6557-83a3-62a5-dbce"
               },
               {
-                "name": "Lethal (n)",
+                "name": "Lethal",
                 "id": "7416-a55f-caa1-66cd",
                 "hidden": false,
                 "type": "rule",
@@ -8123,7 +8140,7 @@
                     "targetId": "c809-077b-7797-3195"
                   },
                   {
-                    "name": "Weight of Fire (n)",
+                    "name": "Weight of Fire",
                     "id": "fd01-9872-251d-8960",
                     "hidden": false,
                     "type": "rule",
@@ -8177,7 +8194,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal (n)",
+                    "name": "Lethal",
                     "id": "abab-a6e8-81f1-b4d9",
                     "hidden": false,
                     "type": "rule",
@@ -8836,7 +8853,7 @@
           },
           {
             "import": true,
-            "name": "M319 Grenade Launcher (Default)",
+            "name": "M319 Grenade Launcher",
             "hidden": false,
             "id": "fc3a-3036-2074-0253",
             "type": "selectionEntry",
