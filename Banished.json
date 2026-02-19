@@ -93,7 +93,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": " Sanheili Fists",
+        "name": "Sanheili Fists",
         "hidden": false,
         "id": "949b-8de4-fbd6-d4a6",
         "infoGroups": [
@@ -103,7 +103,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Smash",
+                "name": "Smash (n)",
                 "id": "cc1f-bcc8-59e7-38cf",
                 "hidden": false,
                 "type": "rule",
@@ -205,14 +205,6 @@
             "scope": "parent",
             "shared": true,
             "id": "a997-48f0-7e0e-2e82"
-          },
-          {
-            "type": "min",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "927c-dfc0-2c7f-eaaa"
           }
         ]
       },
@@ -229,7 +221,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal",
+                "name": "Lethal (n)",
                 "id": "47a3-17fd-511c-2ad4",
                 "hidden": false,
                 "type": "rule",
@@ -285,7 +277,7 @@
                 "targetId": "c809-077b-7797-3195"
               },
               {
-                "name": "Smash",
+                "name": "Smash (n)",
                 "id": "fcbf-a684-3d80-539a",
                 "hidden": false,
                 "type": "rule",
@@ -319,24 +311,6 @@
               }
             ]
           }
-        ],
-        "constraints": [
-          {
-            "type": "min",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "1e7f-1310-507a-86d8"
-          },
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "8eb6-a890-7ec7-6f23"
-          }
         ]
       },
       {
@@ -356,17 +330,17 @@
               {
                 "name": "Range",
                 "typeId": "c685-2ffd-a66f-ab77",
-                "$text": "CC"
+                "$text": ""
               },
               {
                 "name": "AP",
                 "typeId": "a2b8-87bd-3c79-107b",
-                "$text": "2"
+                "$text": ""
               },
               {
                 "name": "Keywords",
                 "typeId": "38c3-e196-bb17-1734",
-                "$text": "Lethal (1)"
+                "$text": ""
               }
             ]
           }
@@ -378,7 +352,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Lethal",
+                "name": "Lethal (n)",
                 "id": "8a6e-142e-d30b-2549",
                 "hidden": false,
                 "type": "rule",
@@ -423,7 +397,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "Lethal",
+                    "name": "Lethal (n)",
                     "id": "10eb-db73-74ab-a619",
                     "hidden": false,
                     "type": "rule",
@@ -484,7 +458,7 @@
                 "hidden": false,
                 "infoLinks": [
                   {
-                    "name": "ESD",
+                    "name": "Energy Shield Depleter (ESD) (n)",
                     "id": "73f8-1f22-f33a-5713",
                     "hidden": false,
                     "type": "rule",
@@ -498,14 +472,14 @@
                     "targetId": "99d3-7a0f-1302-39cc"
                   },
                   {
-                    "name": "Smash",
+                    "name": "Smash (n)",
                     "id": "5c01-bd89-f3c9-eff3",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "e0eb-47f2-7bcc-d042"
                   },
                   {
-                    "name": "Lethal",
+                    "name": "Lethal (n)",
                     "id": "0683-6b45-67f6-46e2",
                     "hidden": false,
                     "type": "rule",
@@ -556,7 +530,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "e954-7de4-c8f7-7725",
                 "hidden": false,
                 "type": "rule",
@@ -577,7 +551,7 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Tactician",
+                "name": "Tactician (n)",
                 "id": "59c2-5564-6a99-cc73",
                 "hidden": false,
                 "type": "rule",
@@ -792,7 +766,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "a28d-c8e4-f438-3595",
                 "hidden": false,
                 "type": "rule",
@@ -907,7 +881,7 @@
                 "targetId": "9c4b-cf16-5095-1900"
               },
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "d50f-c49d-baec-5662",
                 "hidden": false,
                 "type": "rule",
@@ -1023,7 +997,7 @@
                 "targetId": "9c4b-cf16-5095-1900"
               },
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "5a85-9e29-c738-4d3b",
                 "hidden": false,
                 "type": "rule",
@@ -1139,7 +1113,7 @@
                 "targetId": "9c4b-cf16-5095-1900"
               },
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "6a75-aeb2-ae67-269e",
                 "hidden": false,
                 "type": "rule",
@@ -1248,7 +1222,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "76c9-17c7-5d4e-4754",
                 "hidden": false,
                 "type": "rule",
@@ -1480,7 +1454,7 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "41dc-fe9b-8160-3545",
                 "hidden": false,
                 "type": "rule",
@@ -1494,7 +1468,7 @@
                 "targetId": "d61b-fa4c-fa16-40d7"
               },
               {
-                "name": "Tactician",
+                "name": "Tactician (n)",
                 "id": "e580-85f4-668c-433e",
                 "hidden": false,
                 "type": "rule",
@@ -1603,7 +1577,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "ccfd-786c-7fe4-02e5",
                 "hidden": false,
                 "type": "rule",
@@ -1719,7 +1693,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "2c90-94ee-2c85-ba07",
                 "hidden": false,
                 "type": "rule",
@@ -1738,11 +1712,11 @@
         "entryLinks": [
           {
             "import": true,
-            "name": "Skewer (Default)",
+            "name": "Skewer",
             "hidden": false,
             "id": "5daf-8ca0-b15e-f5c5",
             "type": "selectionEntry",
-            "targetId": "351d-c16e-26ae-a8a4"
+            "targetId": "d95a-cd9e-fbb6-d597"
           },
           {
             "import": true,
@@ -1834,14 +1808,14 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "fcc7-ce48-39eb-85e0",
                 "hidden": false,
                 "type": "rule",
                 "targetId": "4681-64c1-c51a-affe"
               },
               {
-                "name": "Tactician",
+                "name": "Tactician (n)",
                 "id": "0af5-77b6-3e8b-e7ec",
                 "hidden": false,
                 "type": "rule",
@@ -1949,7 +1923,7 @@
             "hidden": false,
             "infoLinks": [
               {
-                "name": "Energy Shield",
+                "name": "Energy Shield (n)",
                 "id": "962b-0b57-a84c-d1c7",
                 "hidden": false,
                 "type": "rule",
@@ -1963,7 +1937,7 @@
                 "targetId": "8e73-22b3-8bb6-bba2"
               },
               {
-                "name": "Tactician",
+                "name": "Tactician (n)",
                 "id": "9a21-e3c9-5187-7463",
                 "hidden": false,
                 "type": "rule",
@@ -2267,7 +2241,7 @@
           },
           {
             "import": true,
-            "name": " Sanheili Fists",
+            "name": "Sanheili Fists",
             "hidden": false,
             "id": "6fd0-7843-d06b-810c",
             "type": "selectionEntry",
@@ -2318,14 +2292,14 @@
             "$text": "4+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-2"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
           },
           {
             "name": "HP",
@@ -2362,14 +2336,14 @@
             "$text": "4+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "2-3"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "2-3"
           },
           {
             "name": "HP",
@@ -2406,14 +2380,14 @@
             "$text": "6+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-3"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
           },
           {
             "name": "HP",
@@ -2450,14 +2424,14 @@
             "$text": "5+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-3"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "2"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
           },
           {
             "name": "HP",
@@ -2494,14 +2468,14 @@
             "$text": "5+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-2"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "-"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
           },
           {
             "name": "HP",
@@ -2538,14 +2512,14 @@
             "$text": "5+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-2"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
           },
           {
             "name": "HP",
@@ -2582,14 +2556,14 @@
             "$text": "5+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-2"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-2"
           },
           {
             "name": "HP",
@@ -2626,14 +2600,14 @@
             "$text": "6+"
           },
           {
-            "name": "Move",
-            "typeId": "8ba7-0d9a-5f8d-3610",
-            "$text": "1-3"
-          },
-          {
             "name": "Armour",
             "typeId": "da67-cd18-63a3-a31f",
             "$text": "1"
+          },
+          {
+            "name": "Move",
+            "typeId": "8ba7-0d9a-5f8d-3610",
+            "$text": "1-3"
           },
           {
             "name": "HP",
