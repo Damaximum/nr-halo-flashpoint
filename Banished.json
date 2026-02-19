@@ -93,7 +93,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Sanheili Fists",
+        "name": "   Sanheili Fists",
         "hidden": false,
         "id": "949b-8de4-fbd6-d4a6",
         "infoGroups": [
@@ -152,7 +152,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Jiralhanae Fists",
+        "name": "  Jiralhanae Fists",
         "hidden": false,
         "id": "3085-ab68-a205-1e02",
         "infoGroups": [
@@ -260,7 +260,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Wrist Blades",
+        "name": "  Wrist Blades",
         "hidden": false,
         "id": "914d-447a-1a53-45e3",
         "infoGroups": [
@@ -316,7 +316,7 @@
       {
         "type": "upgrade",
         "import": true,
-        "name": "Energy Dagger",
+        "name": "  Energy Dagger",
         "hidden": false,
         "id": "d65d-a245-805a-4655",
         "profiles": [

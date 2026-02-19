@@ -202,7 +202,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "M11 Combat Knife",
+        "name": " M11 Combat Knife",
         "hidden": false,
         "id": "1960-87a0-12aa-82ba"
       },
@@ -242,7 +242,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Combat Knife (Default)",
+        "name": "  Combat Knife (Default)",
         "hidden": false,
         "id": "5cba-7c97-438b-a366"
       },
@@ -282,7 +282,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Spartan Fists",
+        "name": " Spartan Fists",
         "hidden": false,
         "id": "ebbe-3672-5957-aa9b"
       },
@@ -3434,7 +3434,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Fists",
+        "name": "  Fists",
         "hidden": false,
         "id": "cca4-7cb7-6c40-544d"
       },
@@ -3781,7 +3781,7 @@
         ],
         "type": "upgrade",
         "import": true,
-        "name": "Combat Knife",
+        "name": " Combat Knife",
         "hidden": false,
         "id": "0cf1-9865-8d85-61c2"
       }
