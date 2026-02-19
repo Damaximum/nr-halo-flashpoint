@@ -4659,6 +4659,24 @@
             ],
             "publicationId": "5e4c-716d-7f6f-ade1"
           }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "de49-a48d-8428-5be3"
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "24a0-662b-c5f4-0d43"
+          }
         ]
       }
     ],
