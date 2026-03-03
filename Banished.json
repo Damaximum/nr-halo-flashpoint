@@ -263,6 +263,24 @@
               }
             ]
           }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "2bd8-a390-1398-e1a9"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "cfd3-f738-4a2c-9d19"
+          }
         ]
       },
       {
@@ -540,6 +558,24 @@
                 ]
               }
             ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "1b8d-29ab-a4e6-f01c"
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "72be-e3ad-20c8-c905"
           }
         ]
       },
