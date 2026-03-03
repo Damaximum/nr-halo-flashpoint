@@ -114,16 +114,16 @@
       {
         "categoryLinks": [
           {
+            "name": "Command Upgrades",
+            "hidden": false,
+            "id": "6c88-9508-afbe-e9a7",
+            "targetId": "c928-e094-4703-7632"
+          },
+          {
             "name": "UNSC Special Orders",
             "hidden": false,
             "id": "c690-50fd-ed0b-3299",
             "targetId": "6fa8-d610-d974-00b8"
-          },
-          {
-            "name": "ODST",
-            "hidden": false,
-            "id": "35d0-efea-ab8b-4a7c",
-            "targetId": "8182-1cf0-bbf8-2470"
           },
           {
             "name": "Legends",
@@ -138,10 +138,10 @@
             "targetId": "b5c4-8d22-51d8-2142"
           },
           {
-            "name": "Command Upgrades",
+            "name": "ODST",
             "hidden": false,
-            "id": "6c88-9508-afbe-e9a7",
-            "targetId": "c928-e094-4703-7632"
+            "id": "35d0-efea-ab8b-4a7c",
+            "targetId": "8182-1cf0-bbf8-2470"
           }
         ],
         "name": "UNSC Fireteam",

@@ -57,28 +57,28 @@
         "hidden": false,
         "categoryLinks": [
           {
-            "name": "Banished Special Orders",
-            "hidden": false,
-            "id": "d542-c725-24f9-1bcb",
-            "targetId": "c51d-82ff-1907-ac1a"
-          },
-          {
-            "name": "Jiralhanae",
-            "hidden": false,
-            "id": "10ed-c685-a9ad-738e",
-            "targetId": "0533-f9ac-5b03-11b2"
-          },
-          {
             "name": "Command Upgrades",
             "hidden": false,
             "id": "c0a3-da43-20da-1bae",
             "targetId": "c928-e094-4703-7632"
           },
           {
+            "name": "Banished Special Orders",
+            "hidden": false,
+            "id": "d542-c725-24f9-1bcb",
+            "targetId": "c51d-82ff-1907-ac1a"
+          },
+          {
             "name": "Legends",
             "hidden": false,
             "id": "f47c-3fa6-0934-1fc7",
             "targetId": "a14f-c7a2-7e5e-543e"
+          },
+          {
+            "name": "Jiralhanae",
+            "hidden": false,
+            "id": "10ed-c685-a9ad-738e",
+            "targetId": "0533-f9ac-5b03-11b2"
           },
           {
             "name": "Sangheili",
