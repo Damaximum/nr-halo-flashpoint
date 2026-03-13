@@ -16,7 +16,7 @@
     "id": "sys-d6f4-c22a-702c-7c63",
     "name": "Halo: Flashpoint",
     "battleScribeVersion": 2.03,
-    "revision": 2,
+    "revision": 3,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "sharedSelectionEntries": [
@@ -5358,7 +5358,7 @@
             "hidden": false,
             "profiles": [
               {
-                "name": "Brute Shot (Ranged)",
+                "name": "Brute Shot (Melee)",
                 "typeId": "49bf-a2d1-7a64-717e",
                 "typeName": "Weapons",
                 "hidden": false,
@@ -7643,7 +7643,7 @@
               {
                 "name": "AP",
                 "typeId": "a2b8-87bd-3c79-107b",
-                "$text": "-"
+                "$text": "1"
               },
               {
                 "name": "Keywords",
@@ -8141,7 +8141,7 @@
         "publicationId": "3020-5a40-6af2-87af",
         "infoGroups": [
           {
-            "name": "Spike Rifle (Ranged",
+            "name": "Spike Rifle (Ranged)",
             "id": "3a5c-7dcf-085f-f16b",
             "hidden": false,
             "infoGroups": [
